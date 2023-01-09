@@ -1,0 +1,16 @@
+CONDASH_LOCATION = "/home/piepejel/anaconda3/etc/profile.d/conda.sh"
+LEVELS = 2
+PREMSEL = False
+USE_M2K = True
+KEEP_GENERAL = False
+NOISY_DATA = False
+NO_GPUS = 8
+# m2k used to be 1000, now 5000 to ensure full use (~4000)
+EXPLORATION_SAMPLE_SIZE = 1000
+TEMP = 2
+SIZE_FILTER = 200000
+INNER_PARA = 5
+BIAS_TRAINING_SAMPLES = False
+PRETRAIN_NUM_EPOCHS = 20
+PREMSEL_TRAIN_EPOCHS = 1
+EVAL_INTERVAL = 10
