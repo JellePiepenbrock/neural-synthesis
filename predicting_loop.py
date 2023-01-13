@@ -124,7 +124,7 @@ if top_level == 1:
         val_theorems = val_split.readlines()
         val_theorems = [k.strip() for k in val_theorems]
 
-    test_list_file = f"lists/00all_probs_test"
+    test_list_file = f"lists/00all_probs_test_sample"
 
 
     with open(test_list_file, "r") as test_split:
