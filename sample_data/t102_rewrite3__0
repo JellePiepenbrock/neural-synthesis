@@ -1,0 +1,11 @@
+cnf(i_0_5,negated_conjecture,(l1_rewrite3(esk7_0,esk6_0))).
+cnf(i_0_7,negated_conjecture,(m1_subset_1(esk6_0,k1_zfmisc_1(k8_afinsq_1(esk5_0))))).
+cnf(i_0_4,negated_conjecture,(v2_rewrite3(esk7_0,esk5_0,esk6_0))).
+cnf(i_0_3,negated_conjecture,(r4_rewrite3(esk5_0,esk6_0,esk7_0,esk1_0,esk2_0,esk3_0))).
+cnf(i_0_2,negated_conjecture,(r4_rewrite3(esk5_0,esk6_0,esk7_0,esk1_0,esk2_0,esk4_0))).
+cnf(i_0_1,negated_conjecture,(~esk4_0=esk3_0)).
+cnf(i_0_8,negated_conjecture,(~v1_xboole_0(esk5_0))).
+cnf(i_0_6,negated_conjecture,(~v2_struct_0(esk7_0))).
+cnf(i_0_11,plain,(v1_xboole_0(Ci_0_11_A)|v2_struct_0(Ci_0_11_B)|r3_rewrite3(Ci_0_11_A,Ci_0_11_C,Ci_0_11_B,Ci_0_11_D,Ci_0_11_E,Ci_0_11_F,k2_flang_1(Ci_0_11_A))|~l1_rewrite3(Ci_0_11_B,Ci_0_11_C)|~m1_subset_1(Ci_0_11_C,k1_zfmisc_1(k8_afinsq_1(Ci_0_11_A)))|~r4_rewrite3(Ci_0_11_A,Ci_0_11_C,Ci_0_11_B,Ci_0_11_D,Ci_0_11_E,Ci_0_11_F))).
+cnf(i_0_10,plain,(v1_xboole_0(Ci_0_10_A)|v2_struct_0(Ci_0_10_B)|r4_rewrite3(Ci_0_10_A,Ci_0_10_C,Ci_0_10_B,Ci_0_10_D,Ci_0_10_E,Ci_0_10_F)|~l1_rewrite3(Ci_0_10_B,Ci_0_10_C)|~m1_subset_1(Ci_0_10_C,k1_zfmisc_1(k8_afinsq_1(Ci_0_10_A)))|~r3_rewrite3(Ci_0_10_A,Ci_0_10_C,Ci_0_10_B,Ci_0_10_D,Ci_0_10_E,Ci_0_10_F,k2_flang_1(Ci_0_10_A)))).
+cnf(i_0_9,plain,(Ci_0_9_A=Ci_0_9_B|v1_xboole_0(Ci_0_9_C)|v2_struct_0(Ci_0_9_D)|~l1_rewrite3(Ci_0_9_D,Ci_0_9_E)|~v2_rewrite3(Ci_0_9_D,Ci_0_9_C,Ci_0_9_E)|~m1_subset_1(Ci_0_9_E,k1_zfmisc_1(k8_afinsq_1(Ci_0_9_C)))|~r3_rewrite3(Ci_0_9_C,Ci_0_9_E,Ci_0_9_D,Ci_0_9_F,Ci_0_9_G,Ci_0_9_B,Ci_0_9_H)|~r3_rewrite3(Ci_0_9_C,Ci_0_9_E,Ci_0_9_D,Ci_0_9_F,Ci_0_9_G,Ci_0_9_A,Ci_0_9_H))).

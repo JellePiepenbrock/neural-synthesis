@@ -1,0 +1,13 @@
+cnf(i_0_4,negated_conjecture,(m1_qc_lang1(esk1_0))).
+cnf(i_0_3,negated_conjecture,(m1_subset_1(esk2_0,k1_zfmisc_1(k3_cqc_lang(esk1_0))))).
+cnf(i_0_2,negated_conjecture,(m1_subset_1(esk3_0,k1_zfmisc_1(k3_cqc_lang(esk1_0))))).
+cnf(i_0_10,plain,(k2_xboole_0(Ci_0_10_A,Ci_0_10_B)=k2_xboole_0(Ci_0_10_B,Ci_0_10_A))).
+cnf(i_0_12,plain,(r1_tarski(Ci_0_12_A,k2_xboole_0(Ci_0_12_A,Ci_0_12_B)))).
+cnf(i_0_1,negated_conjecture,(~r1_tarski(k4_subset_1(k3_cqc_lang(esk1_0),k1_cqc_the1(esk1_0,esk2_0),k1_cqc_the1(esk1_0,esk3_0)),k1_cqc_the1(esk1_0,k4_subset_1(k3_cqc_lang(esk1_0),esk2_0,esk3_0))))).
+cnf(i_0_5,plain,(m1_subset_1(Ci_0_5_A,k1_zfmisc_1(Ci_0_5_B))|~r1_tarski(Ci_0_5_A,Ci_0_5_B))).
+cnf(i_0_6,plain,(r1_tarski(Ci_0_6_A,Ci_0_6_B)|~m1_subset_1(Ci_0_6_A,k1_zfmisc_1(Ci_0_6_B)))).
+cnf(i_0_13,plain,(m1_subset_1(k1_cqc_the1(Ci_0_13_A,Ci_0_13_B),k1_zfmisc_1(k3_cqc_lang(Ci_0_13_A)))|~m1_qc_lang1(Ci_0_13_A)|~m1_subset_1(Ci_0_13_B,k1_zfmisc_1(k3_cqc_lang(Ci_0_13_A))))).
+cnf(i_0_7,plain,(k4_subset_1(Ci_0_7_A,Ci_0_7_B,Ci_0_7_C)=k2_xboole_0(Ci_0_7_B,Ci_0_7_C)|~m1_subset_1(Ci_0_7_C,k1_zfmisc_1(Ci_0_7_A))|~m1_subset_1(Ci_0_7_B,k1_zfmisc_1(Ci_0_7_A)))).
+cnf(i_0_9,plain,(k4_subset_1(Ci_0_9_A,Ci_0_9_B,Ci_0_9_C)=k4_subset_1(Ci_0_9_A,Ci_0_9_C,Ci_0_9_B)|~m1_subset_1(Ci_0_9_C,k1_zfmisc_1(Ci_0_9_A))|~m1_subset_1(Ci_0_9_B,k1_zfmisc_1(Ci_0_9_A)))).
+cnf(i_0_8,plain,(m1_subset_1(k4_subset_1(Ci_0_8_A,Ci_0_8_B,Ci_0_8_C),k1_zfmisc_1(Ci_0_8_A))|~m1_subset_1(Ci_0_8_C,k1_zfmisc_1(Ci_0_8_A))|~m1_subset_1(Ci_0_8_B,k1_zfmisc_1(Ci_0_8_A)))).
+cnf(i_0_11,plain,(r1_tarski(k1_cqc_the1(Ci_0_11_A,Ci_0_11_B),k1_cqc_the1(Ci_0_11_A,Ci_0_11_C))|~m1_qc_lang1(Ci_0_11_A)|~r1_tarski(Ci_0_11_B,Ci_0_11_C)|~m1_subset_1(Ci_0_11_C,k1_zfmisc_1(k3_cqc_lang(Ci_0_11_A)))|~m1_subset_1(Ci_0_11_B,k1_zfmisc_1(k3_cqc_lang(Ci_0_11_A))))).

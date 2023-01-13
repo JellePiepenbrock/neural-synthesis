@@ -1,0 +1,11 @@
+cnf(i_0_6,plain,(k5_numbers=k4_ordinal1)).
+cnf(i_0_1,negated_conjecture,(v1_abian(np__1))).
+cnf(i_0_5,plain,(v6_membered(k4_ordinal1))).
+cnf(i_0_11,plain,(v2_xxreal_0(np__1))).
+cnf(i_0_9,plain,(m1_subset_1(np__1,k5_numbers))).
+cnf(i_0_8,plain,(m1_subset_1(np__1,k1_numbers))).
+cnf(i_0_10,plain,(m2_subset_1(np__1,k1_numbers,k5_numbers))).
+cnf(i_0_7,plain,(v1_int_1(Ci_0_7_A)|~v7_ordinal1(Ci_0_7_A))).
+cnf(i_0_4,plain,(v7_ordinal1(Ci_0_4_A)|~v6_membered(Ci_0_4_B)|~m1_subset_1(Ci_0_4_A,Ci_0_4_B))).
+cnf(i_0_2,plain,(~v1_abian(Ci_0_2_A)|~v1_int_1(Ci_0_2_A)|~v1_abian(k2_xcmplx_0(Ci_0_2_A,np__1)))).
+cnf(i_0_3,plain,(v1_abian(k2_xcmplx_0(Ci_0_3_A,Ci_0_3_B))|~v1_abian(Ci_0_3_B)|~v1_abian(Ci_0_3_A)|~v1_int_1(Ci_0_3_B)|~v1_int_1(Ci_0_3_A))).

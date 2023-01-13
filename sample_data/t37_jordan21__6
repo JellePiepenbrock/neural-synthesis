@@ -1,0 +1,13 @@
+cnf(i_0_3,negated_conjecture,(v1_topreal2(esk1_0))).
+cnf(i_0_7,plain,(v1_xxreal_0(esk2_0))).
+cnf(i_0_8,plain,(v1_xcmplx_0(esk2_0))).
+cnf(i_0_6,plain,(v3_xxreal_0(esk2_0))).
+cnf(i_0_5,plain,(v1_xreal_0(esk2_0))).
+cnf(i_0_1,negated_conjecture,(k1_jordan21(esk1_0)=k2_jordan21(esk1_0))).
+cnf(i_0_2,negated_conjecture,(m1_subset_1(esk1_0,k1_zfmisc_1(u1_struct_0(k15_euclid(np__2)))))).
+cnf(i_0_10,plain,(v1_xxreal_0(Ci_0_10_A)|~v1_xreal_0(Ci_0_10_A))).
+cnf(i_0_11,plain,(v1_xreal_0(Ci_0_11_A)|~m1_subset_1(Ci_0_11_A,k1_numbers))).
+cnf(i_0_4,plain,(r1_xxreal_0(Ci_0_4_A,Ci_0_4_A)|~v1_xxreal_0(Ci_0_4_B)|~v1_xxreal_0(Ci_0_4_A))).
+cnf(i_0_13,plain,(m1_subset_1(k18_euclid(Ci_0_13_A),k1_numbers)|~m1_subset_1(Ci_0_13_A,u1_struct_0(k15_euclid(np__2))))).
+cnf(i_0_12,plain,(m1_subset_1(k1_jordan21(Ci_0_12_A),u1_struct_0(k15_euclid(np__2)))|~m1_subset_1(Ci_0_12_A,k1_zfmisc_1(u1_struct_0(k15_euclid(np__2)))))).
+cnf(i_0_9,plain,(~v1_topreal2(Ci_0_9_A)|~m1_subset_1(Ci_0_9_A,k1_zfmisc_1(u1_struct_0(k15_euclid(np__2))))|~r1_xxreal_0(k18_euclid(k1_jordan21(Ci_0_9_A)),k18_euclid(k2_jordan21(Ci_0_9_A))))).

@@ -1,0 +1,11 @@
+cnf(i_0_3,negated_conjecture,(v7_ordinal1(esk2_0))).
+cnf(i_0_2,negated_conjecture,(r2_hidden(esk3_0,esk1_0))).
+cnf(i_0_6,plain,(k7_funcop_1(Ci_0_6_A,Ci_0_6_B)=k2_funcop_1(Ci_0_6_A,Ci_0_6_B))).
+cnf(i_0_5,plain,(v1_relat_1(k2_funcop_1(Ci_0_5_A,Ci_0_5_B)))).
+cnf(i_0_4,plain,(v1_funct_1(k2_funcop_1(Ci_0_4_A,Ci_0_4_B)))).
+cnf(i_0_11,plain,(~v1_xboole_0(Ci_0_11_A)|~r2_hidden(Ci_0_11_B,Ci_0_11_A))).
+cnf(i_0_10,plain,(m1_subset_1(Ci_0_10_A,Ci_0_10_B)|~r2_hidden(Ci_0_10_A,Ci_0_10_B))).
+cnf(i_0_8,plain,(v5_ordinal1(k2_funcop_1(Ci_0_8_A,Ci_0_8_B))|~v7_ordinal1(Ci_0_8_A))).
+cnf(i_0_7,plain,(v1_finset_1(k2_funcop_1(Ci_0_7_A,Ci_0_7_B))|~v7_ordinal1(Ci_0_7_A))).
+cnf(i_0_9,plain,(v1_xboole_0(Ci_0_9_A)|v5_relat_1(k2_funcop_1(Ci_0_9_B,Ci_0_9_C),Ci_0_9_A)|~m1_subset_1(Ci_0_9_C,Ci_0_9_A))).
+cnf(i_0_1,negated_conjecture,(~v1_relat_1(k7_funcop_1(esk2_0,esk3_0))|~v5_ordinal1(k7_funcop_1(esk2_0,esk3_0))|~v1_funct_1(k7_funcop_1(esk2_0,esk3_0))|~v1_finset_1(k7_funcop_1(esk2_0,esk3_0))|~v5_relat_1(k7_funcop_1(esk2_0,esk3_0),esk1_0))).

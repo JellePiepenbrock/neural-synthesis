@@ -1,0 +1,13 @@
+cnf(i_0_3,plain,(np__2=c4__realset2)).
+cnf(i_0_13,plain,(v1_funct_1(k2_realset2))).
+cnf(i_0_4,plain,(k1_funct_7(k6_numbers,np__2)=c5__realset2)).
+cnf(i_0_6,plain,(m1_subset_1(c5__realset2,c4__realset2))).
+cnf(i_0_12,plain,(v1_funct_2(k2_realset2,k2_zfmisc_1(np__2,np__2),np__2))).
+cnf(i_0_11,plain,(m1_subset_1(k2_realset2,k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(np__2,np__2),np__2))))).
+cnf(i_0_7,plain,(~v1_xboole_0(np__2))).
+cnf(i_0_1,negated_conjecture,(~m3_realset1(k2_realset2,c4__realset2,c5__realset2))).
+cnf(i_0_5,plain,(k6_domain_1(Ci_0_5_A,Ci_0_5_B)=k1_tarski(Ci_0_5_B)|v1_xboole_0(Ci_0_5_A)|~m1_subset_1(Ci_0_5_B,Ci_0_5_A))).
+cnf(i_0_9,plain,(m3_realset1(Ci_0_9_A,Ci_0_9_B,Ci_0_9_C)|r2_hidden(esk1_3(Ci_0_9_B,Ci_0_9_C,Ci_0_9_A),k2_zfmisc_1(k6_subset_1(Ci_0_9_B,k1_tarski(Ci_0_9_C)),k6_subset_1(Ci_0_9_B,k1_tarski(Ci_0_9_C))))|~v1_funct_1(Ci_0_9_A)|~m1_subset_1(Ci_0_9_C,Ci_0_9_B)|~v1_funct_2(Ci_0_9_A,k2_zfmisc_1(Ci_0_9_B,Ci_0_9_B),Ci_0_9_B)|~m1_subset_1(Ci_0_9_A,k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(Ci_0_9_B,Ci_0_9_B),Ci_0_9_B))))).
+cnf(i_0_10,plain,(r2_hidden(k1_funct_1(Ci_0_10_A,Ci_0_10_B),k6_subset_1(Ci_0_10_C,k1_tarski(Ci_0_10_D)))|~v1_funct_1(Ci_0_10_A)|~m1_subset_1(Ci_0_10_D,Ci_0_10_C)|~m3_realset1(Ci_0_10_A,Ci_0_10_C,Ci_0_10_D)|~v1_funct_2(Ci_0_10_A,k2_zfmisc_1(Ci_0_10_C,Ci_0_10_C),Ci_0_10_C)|~m1_subset_1(Ci_0_10_A,k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(Ci_0_10_C,Ci_0_10_C),Ci_0_10_C)))|~r2_hidden(Ci_0_10_B,k2_zfmisc_1(k6_subset_1(Ci_0_10_C,k1_tarski(Ci_0_10_D)),k6_subset_1(Ci_0_10_C,k1_tarski(Ci_0_10_D)))))).
+cnf(i_0_8,plain,(m3_realset1(Ci_0_8_A,Ci_0_8_B,Ci_0_8_C)|~v1_funct_1(Ci_0_8_A)|~m1_subset_1(Ci_0_8_C,Ci_0_8_B)|~v1_funct_2(Ci_0_8_A,k2_zfmisc_1(Ci_0_8_B,Ci_0_8_B),Ci_0_8_B)|~m1_subset_1(Ci_0_8_A,k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(Ci_0_8_B,Ci_0_8_B),Ci_0_8_B)))|~r2_hidden(k1_funct_1(Ci_0_8_A,esk1_3(Ci_0_8_B,Ci_0_8_C,Ci_0_8_A)),k6_subset_1(Ci_0_8_B,k1_tarski(Ci_0_8_C))))).
+cnf(i_0_2,plain,(r2_hidden(k1_funct_1(k2_realset2,Ci_0_2_A),k6_subset_1(c4__realset2,k6_domain_1(np__2,k1_funct_7(k6_numbers,np__2))))|~r2_hidden(Ci_0_2_A,k2_zfmisc_1(k6_subset_1(c4__realset2,k6_domain_1(np__2,k1_funct_7(k6_numbers,np__2))),k6_subset_1(c4__realset2,k6_domain_1(np__2,k1_funct_7(k6_numbers,np__2))))))).

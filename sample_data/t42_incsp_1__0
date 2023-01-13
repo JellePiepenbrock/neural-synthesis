@@ -1,0 +1,10 @@
+cnf(i_0_4,negated_conjecture,(v15_incsp_1(esk1_0))).
+cnf(i_0_3,negated_conjecture,(l2_incsp_1(esk1_0))).
+cnf(i_0_2,negated_conjecture,(m1_subset_1(esk2_0,u4_incsp_1(esk1_0)))).
+cnf(i_0_10,plain,(m1_subset_1(esk3_2(Ci_0_10_A,Ci_0_10_B),u1_incsp_1(Ci_0_10_A))|~v15_incsp_1(Ci_0_10_A)|~l2_incsp_1(Ci_0_10_A)|~m1_subset_1(Ci_0_10_B,u4_incsp_1(Ci_0_10_A)))).
+cnf(i_0_9,plain,(m1_subset_1(esk4_2(Ci_0_9_A,Ci_0_9_B),u1_incsp_1(Ci_0_9_A))|~v15_incsp_1(Ci_0_9_A)|~l2_incsp_1(Ci_0_9_A)|~m1_subset_1(Ci_0_9_B,u4_incsp_1(Ci_0_9_A)))).
+cnf(i_0_8,plain,(m1_subset_1(esk5_2(Ci_0_8_A,Ci_0_8_B),u1_incsp_1(Ci_0_8_A))|~v15_incsp_1(Ci_0_8_A)|~l2_incsp_1(Ci_0_8_A)|~m1_subset_1(Ci_0_8_B,u4_incsp_1(Ci_0_8_A)))).
+cnf(i_0_7,plain,(m1_subset_1(esk6_2(Ci_0_7_A,Ci_0_7_B),u1_incsp_1(Ci_0_7_A))|~v15_incsp_1(Ci_0_7_A)|~l2_incsp_1(Ci_0_7_A)|~m1_subset_1(Ci_0_7_B,u4_incsp_1(Ci_0_7_A)))).
+cnf(i_0_6,plain,(r2_incsp_1(Ci_0_6_A,esk3_2(Ci_0_6_A,Ci_0_6_B),Ci_0_6_B)|~v15_incsp_1(Ci_0_6_A)|~l2_incsp_1(Ci_0_6_A)|~m1_subset_1(Ci_0_6_B,u4_incsp_1(Ci_0_6_A)))).
+cnf(i_0_1,negated_conjecture,(v4_incsp_1(k9_domain_1(u1_incsp_1(esk1_0),Ci_0_1_A,Ci_0_1_B,Ci_0_1_C,Ci_0_1_D),esk1_0)|~m1_subset_1(Ci_0_1_D,u1_incsp_1(esk1_0))|~m1_subset_1(Ci_0_1_C,u1_incsp_1(esk1_0))|~m1_subset_1(Ci_0_1_B,u1_incsp_1(esk1_0))|~m1_subset_1(Ci_0_1_A,u1_incsp_1(esk1_0))|~r2_incsp_1(esk1_0,Ci_0_1_A,esk2_0))).
+cnf(i_0_5,plain,(~v15_incsp_1(Ci_0_5_A)|~l2_incsp_1(Ci_0_5_A)|~m1_subset_1(Ci_0_5_B,u4_incsp_1(Ci_0_5_A))|~v4_incsp_1(k9_domain_1(u1_incsp_1(Ci_0_5_A),esk3_2(Ci_0_5_A,Ci_0_5_B),esk4_2(Ci_0_5_A,Ci_0_5_B),esk5_2(Ci_0_5_A,Ci_0_5_B),esk6_2(Ci_0_5_A,Ci_0_5_B)),Ci_0_5_A))).

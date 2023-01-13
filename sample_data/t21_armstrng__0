@@ -1,0 +1,6 @@
+cnf(i_0_2,negated_conjecture,(v8_relat_2(esk2_0))).
+cnf(i_0_3,negated_conjecture,(v7_armstrng(esk2_0,esk1_0))).
+cnf(i_0_4,negated_conjecture,(m1_subset_1(esk2_0,k1_zfmisc_1(k2_zfmisc_1(k9_setfam_1(esk1_0),k9_setfam_1(esk1_0)))))).
+cnf(i_0_1,negated_conjecture,(~v3_armstrng(esk2_0,esk1_0)|~v4_armstrng(esk2_0,esk1_0))).
+cnf(i_0_6,plain,(v3_armstrng(Ci_0_6_A,Ci_0_6_B)|~v8_relat_2(Ci_0_6_A)|~v7_armstrng(Ci_0_6_A,Ci_0_6_B)|~m1_subset_1(Ci_0_6_A,k1_zfmisc_1(k2_zfmisc_1(k9_setfam_1(Ci_0_6_B),k9_setfam_1(Ci_0_6_B)))))).
+cnf(i_0_5,plain,(v4_armstrng(Ci_0_5_A,Ci_0_5_B)|~v8_relat_2(Ci_0_5_A)|~v7_armstrng(Ci_0_5_A,Ci_0_5_B)|~m1_subset_1(Ci_0_5_A,k1_zfmisc_1(k2_zfmisc_1(k9_setfam_1(Ci_0_5_B),k9_setfam_1(Ci_0_5_B)))))).

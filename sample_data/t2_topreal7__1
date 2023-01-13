@@ -1,0 +1,17 @@
+cnf(i_0_9,negated_conjecture,(m1_subset_1(esk1_0,k1_numbers))).
+cnf(i_0_8,negated_conjecture,(m1_subset_1(esk2_0,k1_numbers))).
+cnf(i_0_7,negated_conjecture,(m1_subset_1(esk3_0,k1_numbers))).
+cnf(i_0_6,negated_conjecture,(m1_subset_1(esk4_0,k1_numbers))).
+cnf(i_0_5,negated_conjecture,(m1_subset_1(esk5_0,k1_numbers))).
+cnf(i_0_4,negated_conjecture,(m1_subset_1(esk6_0,k1_numbers))).
+cnf(i_0_3,negated_conjecture,(r1_xxreal_0(esk1_0,k7_real_1(esk2_0,esk3_0)))).
+cnf(i_0_2,negated_conjecture,(r1_xxreal_0(esk4_0,k7_real_1(esk5_0,esk6_0)))).
+cnf(i_0_1,negated_conjecture,(~r1_xxreal_0(k2_square_1(esk1_0,esk4_0),k7_real_1(k2_square_1(esk2_0,esk5_0),k2_square_1(esk3_0,esk6_0))))).
+cnf(i_0_12,plain,(v1_xxreal_0(Ci_0_12_A)|~v1_xreal_0(Ci_0_12_A))).
+cnf(i_0_13,plain,(v1_xreal_0(Ci_0_13_A)|~m1_subset_1(Ci_0_13_A,k1_numbers))).
+cnf(i_0_17,plain,(m1_subset_1(k7_real_1(Ci_0_17_A,Ci_0_17_B),k1_numbers)|~v1_xreal_0(Ci_0_17_B)|~m1_subset_1(Ci_0_17_A,k1_numbers))).
+cnf(i_0_11,plain,(k2_square_1(Ci_0_11_A,Ci_0_11_B)=k4_xxreal_0(Ci_0_11_A,Ci_0_11_B)|~m1_subset_1(Ci_0_11_B,k1_numbers)|~m1_subset_1(Ci_0_11_A,k1_numbers))).
+cnf(i_0_16,plain,(m1_subset_1(k2_square_1(Ci_0_16_A,Ci_0_16_B),k1_numbers)|~m1_subset_1(Ci_0_16_B,k1_numbers)|~m1_subset_1(Ci_0_16_A,k1_numbers))).
+cnf(i_0_14,plain,(r1_xxreal_0(Ci_0_14_A,Ci_0_14_B)|~v1_xxreal_0(Ci_0_14_B)|~v1_xxreal_0(Ci_0_14_C)|~v1_xxreal_0(Ci_0_14_A)|~r1_xxreal_0(Ci_0_14_C,Ci_0_14_B)|~r1_xxreal_0(Ci_0_14_A,Ci_0_14_C))).
+cnf(i_0_10,plain,(r1_xxreal_0(k4_xxreal_0(Ci_0_10_A,Ci_0_10_B),k4_xxreal_0(Ci_0_10_C,Ci_0_10_D))|~v1_xxreal_0(Ci_0_10_D)|~v1_xxreal_0(Ci_0_10_B)|~v1_xxreal_0(Ci_0_10_C)|~v1_xxreal_0(Ci_0_10_A)|~r1_xxreal_0(Ci_0_10_B,Ci_0_10_D)|~r1_xxreal_0(Ci_0_10_A,Ci_0_10_C))).
+cnf(i_0_15,plain,(r1_xxreal_0(k2_square_1(k7_real_1(Ci_0_15_A,Ci_0_15_B),k7_real_1(Ci_0_15_C,Ci_0_15_D)),k7_real_1(k2_square_1(Ci_0_15_A,Ci_0_15_C),k2_square_1(Ci_0_15_B,Ci_0_15_D)))|~m1_subset_1(Ci_0_15_D,k1_numbers)|~m1_subset_1(Ci_0_15_B,k1_numbers)|~m1_subset_1(Ci_0_15_C,k1_numbers)|~m1_subset_1(Ci_0_15_A,k1_numbers))).

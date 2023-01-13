@@ -1,0 +1,17 @@
+cnf(i_0_10,negated_conjecture,(v13_algstr_0(esk1_0))).
+cnf(i_0_9,negated_conjecture,(v2_rlvect_1(esk1_0))).
+cnf(i_0_8,negated_conjecture,(v3_rlvect_1(esk1_0))).
+cnf(i_0_7,negated_conjecture,(v4_rlvect_1(esk1_0))).
+cnf(i_0_6,negated_conjecture,(v5_rlvect_1(esk1_0))).
+cnf(i_0_5,negated_conjecture,(v6_rlvect_1(esk1_0))).
+cnf(i_0_4,negated_conjecture,(v7_rlvect_1(esk1_0))).
+cnf(i_0_3,negated_conjecture,(v8_rlvect_1(esk1_0))).
+cnf(i_0_2,negated_conjecture,(l1_rlvect_1(esk1_0))).
+cnf(i_0_1,negated_conjecture,(v1_rlvect_3(k6_domain_1(u1_struct_0(esk1_0),k4_struct_0(esk1_0)),esk1_0))).
+cnf(i_0_11,negated_conjecture,(~v2_struct_0(esk1_0))).
+cnf(i_0_14,plain,(l2_algstr_0(Ci_0_14_A)|~l1_rlvect_1(Ci_0_14_A))).
+cnf(i_0_13,plain,(l2_struct_0(Ci_0_13_A)|~l2_algstr_0(Ci_0_13_A))).
+cnf(i_0_12,plain,(l1_algstr_0(Ci_0_12_A)|~l2_algstr_0(Ci_0_12_A))).
+cnf(i_0_17,plain,(m1_subset_1(k4_struct_0(Ci_0_17_A),u1_struct_0(Ci_0_17_A))|~l2_struct_0(Ci_0_17_A))).
+cnf(i_0_15,plain,(Ci_0_15_A=k4_struct_0(Ci_0_15_B)|v2_struct_0(Ci_0_15_B)|v1_rlvect_3(k6_domain_1(u1_struct_0(Ci_0_15_B),Ci_0_15_A),Ci_0_15_B)|~v13_algstr_0(Ci_0_15_B)|~v2_rlvect_1(Ci_0_15_B)|~v3_rlvect_1(Ci_0_15_B)|~v4_rlvect_1(Ci_0_15_B)|~v5_rlvect_1(Ci_0_15_B)|~v6_rlvect_1(Ci_0_15_B)|~v7_rlvect_1(Ci_0_15_B)|~v8_rlvect_1(Ci_0_15_B)|~l1_rlvect_1(Ci_0_15_B)|~m1_subset_1(Ci_0_15_A,u1_struct_0(Ci_0_15_B)))).
+cnf(i_0_16,plain,(v2_struct_0(Ci_0_16_A)|~Ci_0_16_B=k4_struct_0(Ci_0_16_A)|~v13_algstr_0(Ci_0_16_A)|~v2_rlvect_1(Ci_0_16_A)|~v3_rlvect_1(Ci_0_16_A)|~v4_rlvect_1(Ci_0_16_A)|~v5_rlvect_1(Ci_0_16_A)|~v6_rlvect_1(Ci_0_16_A)|~v7_rlvect_1(Ci_0_16_A)|~v8_rlvect_1(Ci_0_16_A)|~l1_rlvect_1(Ci_0_16_A)|~m1_subset_1(Ci_0_16_B,u1_struct_0(Ci_0_16_A))|~v1_rlvect_3(k6_domain_1(u1_struct_0(Ci_0_16_A),Ci_0_16_B),Ci_0_16_A))).

@@ -1,0 +1,15 @@
+cnf(i_0_12,negated_conjecture,(v1_topreal2(esk1_0))).
+cnf(i_0_4,negated_conjecture,(r1_tarski(esk2_0,esk1_0))).
+cnf(i_0_3,negated_conjecture,(r1_tarski(esk3_0,esk1_0))).
+cnf(i_0_8,negated_conjecture,(m1_subset_1(esk4_0,u1_struct_0(k15_euclid(np__2))))).
+cnf(i_0_7,negated_conjecture,(m1_subset_1(esk5_0,u1_struct_0(k15_euclid(np__2))))).
+cnf(i_0_11,negated_conjecture,(m1_subset_1(esk1_0,k1_zfmisc_1(u1_struct_0(k15_euclid(np__2)))))).
+cnf(i_0_10,negated_conjecture,(m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(k15_euclid(np__2)))))).
+cnf(i_0_9,negated_conjecture,(m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(k15_euclid(np__2)))))).
+cnf(i_0_2,negated_conjecture,(k9_subset_1(u1_struct_0(k15_euclid(np__2)),esk2_0,esk3_0)=k2_tarski(esk4_0,esk5_0))).
+cnf(i_0_6,negated_conjecture,(r1_topreal1(k15_euclid(np__2),esk4_0,esk5_0,esk2_0))).
+cnf(i_0_5,negated_conjecture,(r1_topreal1(k15_euclid(np__2),esk4_0,esk5_0,esk3_0))).
+cnf(i_0_1,negated_conjecture,(~k4_subset_1(u1_struct_0(k15_euclid(np__2)),esk2_0,esk3_0)=esk1_0)).
+cnf(i_0_15,plain,(~Ci_0_15_A=Ci_0_15_B|~k9_subset_1(u1_struct_0(k15_euclid(np__2)),Ci_0_15_A,Ci_0_15_B)=k2_tarski(Ci_0_15_C,Ci_0_15_D)|~m1_subset_1(Ci_0_15_D,u1_struct_0(k15_euclid(np__2)))|~m1_subset_1(Ci_0_15_C,u1_struct_0(k15_euclid(np__2)))|~m1_subset_1(Ci_0_15_E,u1_struct_0(k15_euclid(np__2)))|~m1_subset_1(Ci_0_15_F,u1_struct_0(k15_euclid(np__2)))|~r1_topreal1(k15_euclid(np__2),Ci_0_15_F,Ci_0_15_E,Ci_0_15_A)|~m1_subset_1(Ci_0_15_B,k1_zfmisc_1(u1_struct_0(k15_euclid(np__2))))|~m1_subset_1(Ci_0_15_A,k1_zfmisc_1(u1_struct_0(k15_euclid(np__2)))))).
+cnf(i_0_14,plain,(Ci_0_14_A=Ci_0_14_B|k4_subset_1(u1_struct_0(k15_euclid(np__2)),Ci_0_14_A,Ci_0_14_B)=Ci_0_14_C|~v1_topreal2(Ci_0_14_C)|~r1_tarski(Ci_0_14_B,Ci_0_14_C)|~r1_tarski(Ci_0_14_A,Ci_0_14_C)|~m1_subset_1(Ci_0_14_D,u1_struct_0(k15_euclid(np__2)))|~m1_subset_1(Ci_0_14_E,u1_struct_0(k15_euclid(np__2)))|~r1_topreal1(k15_euclid(np__2),Ci_0_14_E,Ci_0_14_D,Ci_0_14_B)|~r1_topreal1(k15_euclid(np__2),Ci_0_14_E,Ci_0_14_D,Ci_0_14_A)|~m1_subset_1(Ci_0_14_C,k1_zfmisc_1(u1_struct_0(k15_euclid(np__2))))|~m1_subset_1(Ci_0_14_B,k1_zfmisc_1(u1_struct_0(k15_euclid(np__2))))|~m1_subset_1(Ci_0_14_A,k1_zfmisc_1(u1_struct_0(k15_euclid(np__2)))))).
+cnf(i_0_13,plain,(Ci_0_13_A=Ci_0_13_B|k9_subset_1(u1_struct_0(k15_euclid(np__2)),Ci_0_13_A,Ci_0_13_B)=k2_tarski(Ci_0_13_C,Ci_0_13_D)|~v1_topreal2(Ci_0_13_E)|~r1_tarski(Ci_0_13_B,Ci_0_13_E)|~r1_tarski(Ci_0_13_A,Ci_0_13_E)|~m1_subset_1(Ci_0_13_D,u1_struct_0(k15_euclid(np__2)))|~m1_subset_1(Ci_0_13_C,u1_struct_0(k15_euclid(np__2)))|~r1_topreal1(k15_euclid(np__2),Ci_0_13_C,Ci_0_13_D,Ci_0_13_B)|~r1_topreal1(k15_euclid(np__2),Ci_0_13_C,Ci_0_13_D,Ci_0_13_A)|~m1_subset_1(Ci_0_13_E,k1_zfmisc_1(u1_struct_0(k15_euclid(np__2))))|~m1_subset_1(Ci_0_13_B,k1_zfmisc_1(u1_struct_0(k15_euclid(np__2))))|~m1_subset_1(Ci_0_13_A,k1_zfmisc_1(u1_struct_0(k15_euclid(np__2)))))).

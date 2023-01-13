@@ -1,0 +1,13 @@
+cnf(i_0_4,negated_conjecture,(m1_qc_lang1(esk1_0))).
+cnf(i_0_3,negated_conjecture,(m1_subset_1(esk2_0,k9_qc_lang1(esk1_0)))).
+cnf(i_0_2,negated_conjecture,(m1_subset_1(esk3_0,k9_qc_lang1(esk1_0)))).
+cnf(i_0_7,plain,(k2_xboole_0(Ci_0_7_A,Ci_0_7_B)=k2_xboole_0(Ci_0_7_B,Ci_0_7_A))).
+cnf(i_0_6,plain,(k2_tarski(Ci_0_6_A,Ci_0_6_B)=k2_xboole_0(k1_tarski(Ci_0_6_A),k1_tarski(Ci_0_6_B)))).
+cnf(i_0_8,plain,(k2_xboole_0(k2_xboole_0(Ci_0_8_A,Ci_0_8_B),Ci_0_8_C)=k2_xboole_0(Ci_0_8_A,k2_xboole_0(Ci_0_8_B,Ci_0_8_C)))).
+cnf(i_0_5,plain,(k2_xboole_0(k2_tarski(Ci_0_5_A,Ci_0_5_B),k2_tarski(Ci_0_5_C,Ci_0_5_D))=k2_enumset1(Ci_0_5_A,Ci_0_5_B,Ci_0_5_C,Ci_0_5_D))).
+cnf(i_0_1,negated_conjecture,(~k2_xboole_0(k2_xboole_0(k15_qc_lang2(esk1_0,esk2_0),k15_qc_lang2(esk1_0,esk3_0)),k2_enumset1(k13_qc_lang1(esk1_0,esk3_0),k13_qc_lang1(esk1_0,esk2_0),k14_qc_lang1(esk1_0,k13_qc_lang1(esk1_0,esk2_0),k13_qc_lang1(esk1_0,esk3_0)),k3_qc_lang2(esk1_0,esk2_0,esk3_0)))=k15_qc_lang2(esk1_0,k3_qc_lang2(esk1_0,esk2_0,esk3_0)))).
+cnf(i_0_13,plain,(m1_subset_1(k13_qc_lang1(Ci_0_13_A,Ci_0_13_B),k9_qc_lang1(Ci_0_13_A))|~m1_qc_lang1(Ci_0_13_A)|~m1_subset_1(Ci_0_13_B,k9_qc_lang1(Ci_0_13_A)))).
+cnf(i_0_9,plain,(k2_xboole_0(k15_qc_lang2(Ci_0_9_A,Ci_0_9_B),k1_tarski(k13_qc_lang1(Ci_0_9_A,Ci_0_9_B)))=k15_qc_lang2(Ci_0_9_A,k13_qc_lang1(Ci_0_9_A,Ci_0_9_B))|~m1_qc_lang1(Ci_0_9_A)|~m1_subset_1(Ci_0_9_B,k9_qc_lang1(Ci_0_9_A)))).
+cnf(i_0_12,plain,(m1_subset_1(k14_qc_lang1(Ci_0_12_A,Ci_0_12_B,Ci_0_12_C),k9_qc_lang1(Ci_0_12_A))|~m1_qc_lang1(Ci_0_12_A)|~m1_subset_1(Ci_0_12_C,k9_qc_lang1(Ci_0_12_A))|~m1_subset_1(Ci_0_12_B,k9_qc_lang1(Ci_0_12_A)))).
+cnf(i_0_11,plain,(k13_qc_lang1(Ci_0_11_A,k14_qc_lang1(Ci_0_11_A,k13_qc_lang1(Ci_0_11_A,Ci_0_11_B),k13_qc_lang1(Ci_0_11_A,Ci_0_11_C)))=k3_qc_lang2(Ci_0_11_A,Ci_0_11_B,Ci_0_11_C)|~m1_qc_lang1(Ci_0_11_A)|~m1_subset_1(Ci_0_11_C,k9_qc_lang1(Ci_0_11_A))|~m1_subset_1(Ci_0_11_B,k9_qc_lang1(Ci_0_11_A)))).
+cnf(i_0_10,plain,(k2_xboole_0(k2_xboole_0(k15_qc_lang2(Ci_0_10_A,Ci_0_10_B),k15_qc_lang2(Ci_0_10_A,Ci_0_10_C)),k1_tarski(k14_qc_lang1(Ci_0_10_A,Ci_0_10_B,Ci_0_10_C)))=k15_qc_lang2(Ci_0_10_A,k14_qc_lang1(Ci_0_10_A,Ci_0_10_B,Ci_0_10_C))|~m1_qc_lang1(Ci_0_10_A)|~m1_subset_1(Ci_0_10_C,k9_qc_lang1(Ci_0_10_A))|~m1_subset_1(Ci_0_10_B,k9_qc_lang1(Ci_0_10_A)))).

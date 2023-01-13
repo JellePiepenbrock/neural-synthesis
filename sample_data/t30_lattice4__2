@@ -1,0 +1,17 @@
+cnf(i_0_4,negated_conjecture,(v10_lattices(esk1_0))).
+cnf(i_0_3,negated_conjecture,(v17_lattices(esk1_0))).
+cnf(i_0_2,negated_conjecture,(l3_lattices(esk1_0))).
+cnf(i_0_5,negated_conjecture,(~v2_struct_0(esk1_0))).
+cnf(i_0_1,negated_conjecture,(~k7_lattices(esk1_0,k5_lattices(esk1_0))=k6_lattices(esk1_0))).
+cnf(i_0_18,plain,(l2_lattices(Ci_0_18_A)|~l3_lattices(Ci_0_18_A))).
+cnf(i_0_19,plain,(l1_lattices(Ci_0_19_A)|~l3_lattices(Ci_0_19_A))).
+cnf(i_0_10,plain,(v2_struct_0(Ci_0_10_A)|v14_lattices(Ci_0_10_A)|~l3_lattices(Ci_0_10_A)|~v15_lattices(Ci_0_10_A))).
+cnf(i_0_14,plain,(v2_struct_0(Ci_0_14_A)|v15_lattices(Ci_0_14_A)|~v17_lattices(Ci_0_14_A)|~l3_lattices(Ci_0_14_A))).
+cnf(i_0_11,plain,(v2_struct_0(Ci_0_11_A)|v13_lattices(Ci_0_11_A)|~l3_lattices(Ci_0_11_A)|~v15_lattices(Ci_0_11_A))).
+cnf(i_0_15,plain,(v2_struct_0(Ci_0_15_A)|v11_lattices(Ci_0_15_A)|~v17_lattices(Ci_0_15_A)|~l3_lattices(Ci_0_15_A))).
+cnf(i_0_13,plain,(v2_struct_0(Ci_0_13_A)|v16_lattices(Ci_0_13_A)|~v17_lattices(Ci_0_13_A)|~l3_lattices(Ci_0_13_A))).
+cnf(i_0_17,plain,(v2_struct_0(Ci_0_17_A)|m1_subset_1(k6_lattices(Ci_0_17_A),u1_struct_0(Ci_0_17_A))|~l2_lattices(Ci_0_17_A))).
+cnf(i_0_8,plain,(v2_struct_0(Ci_0_8_A)|m1_subset_1(k7_lattices(Ci_0_8_A,Ci_0_8_B),u1_struct_0(Ci_0_8_A))|~l3_lattices(Ci_0_8_A)|~m1_subset_1(Ci_0_8_B,u1_struct_0(Ci_0_8_A)))).
+cnf(i_0_7,plain,(k7_lattices(Ci_0_7_A,k7_lattices(Ci_0_7_A,Ci_0_7_B))=Ci_0_7_B|v2_struct_0(Ci_0_7_A)|~v10_lattices(Ci_0_7_A)|~v17_lattices(Ci_0_7_A)|~l3_lattices(Ci_0_7_A)|~m1_subset_1(Ci_0_7_B,u1_struct_0(Ci_0_7_A)))).
+cnf(i_0_9,plain,(k4_lattices(Ci_0_9_A,k6_lattices(Ci_0_9_A),Ci_0_9_B)=Ci_0_9_B|v2_struct_0(Ci_0_9_A)|~v10_lattices(Ci_0_9_A)|~l3_lattices(Ci_0_9_A)|~v14_lattices(Ci_0_9_A)|~m1_subset_1(Ci_0_9_B,u1_struct_0(Ci_0_9_A)))).
+cnf(i_0_6,plain,(k4_lattices(Ci_0_6_A,k7_lattices(Ci_0_6_A,Ci_0_6_B),Ci_0_6_B)=k5_lattices(Ci_0_6_A)|v2_struct_0(Ci_0_6_A)|~v10_lattices(Ci_0_6_A)|~v17_lattices(Ci_0_6_A)|~l3_lattices(Ci_0_6_A)|~m1_subset_1(Ci_0_6_B,u1_struct_0(Ci_0_6_A)))).

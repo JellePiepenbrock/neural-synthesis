@@ -1,0 +1,15 @@
+cnf(i_0_15,plain,(k1_xboole_0=k6_numbers)).
+cnf(i_0_5,negated_conjecture,(v1_xreal_0(esk1_0))).
+cnf(i_0_4,negated_conjecture,(v1_xreal_0(esk2_0))).
+cnf(i_0_3,negated_conjecture,(r1_xxreal_0(esk1_0,k6_numbers))).
+cnf(i_0_14,plain,(m1_subset_1(k1_xboole_0,k4_ordinal1))).
+cnf(i_0_1,negated_conjecture,(r1_xxreal_0(k6_numbers,k2_xcmplx_0(esk1_0,esk2_0)))).
+cnf(i_0_2,negated_conjecture,(~r1_xxreal_0(k6_numbers,esk2_0))).
+cnf(i_0_12,plain,(v1_xreal_0(Ci_0_12_A)|~v7_ordinal1(Ci_0_12_A))).
+cnf(i_0_11,plain,(v1_xcmplx_0(Ci_0_11_A)|~v1_xreal_0(Ci_0_11_A))).
+cnf(i_0_9,plain,(k2_xcmplx_0(Ci_0_9_A,k6_numbers)=Ci_0_9_A|~v1_xcmplx_0(Ci_0_9_A))).
+cnf(i_0_13,plain,(v7_ordinal1(Ci_0_13_A)|~m1_subset_1(Ci_0_13_A,k4_ordinal1))).
+cnf(i_0_10,plain,(k2_xcmplx_0(Ci_0_10_A,Ci_0_10_B)=k2_xcmplx_0(Ci_0_10_B,Ci_0_10_A)|~v1_xcmplx_0(Ci_0_10_B)|~v1_xcmplx_0(Ci_0_10_A))).
+cnf(i_0_8,plain,(v1_xreal_0(k2_xcmplx_0(Ci_0_8_A,Ci_0_8_B))|~v1_xreal_0(Ci_0_8_B)|~v1_xreal_0(Ci_0_8_A))).
+cnf(i_0_6,plain,(r1_xxreal_0(Ci_0_6_A,Ci_0_6_B)|~v1_xreal_0(Ci_0_6_B)|~v1_xreal_0(Ci_0_6_C)|~v1_xreal_0(Ci_0_6_A)|~r1_xxreal_0(Ci_0_6_C,Ci_0_6_B)|~r1_xxreal_0(Ci_0_6_A,Ci_0_6_C))).
+cnf(i_0_7,plain,(r1_xxreal_0(k2_xcmplx_0(Ci_0_7_A,Ci_0_7_B),k2_xcmplx_0(Ci_0_7_C,Ci_0_7_B))|~v1_xreal_0(Ci_0_7_B)|~v1_xreal_0(Ci_0_7_C)|~v1_xreal_0(Ci_0_7_A)|~r1_xxreal_0(Ci_0_7_A,Ci_0_7_C))).

@@ -1,0 +1,7 @@
+cnf(i_0_2,negated_conjecture,(r2_zfmisc_1(esk1_0,esk2_0,esk3_0,esk4_0))).
+cnf(i_0_7,plain,(r1_tarski(k10_xtuple_0(k2_quaterni(Ci_0_7_A,Ci_0_7_B,Ci_0_7_C,Ci_0_7_D,Ci_0_7_E,Ci_0_7_F,Ci_0_7_G,Ci_0_7_H)),k2_enumset1(Ci_0_7_E,Ci_0_7_F,Ci_0_7_G,Ci_0_7_H)))).
+cnf(i_0_1,negated_conjecture,(~k10_xtuple_0(k2_quaterni(esk1_0,esk2_0,esk3_0,esk4_0,esk5_0,esk6_0,esk7_0,esk8_0))=k2_enumset1(esk5_0,esk6_0,esk7_0,esk8_0))).
+cnf(i_0_4,plain,(r1_tarski(Ci_0_4_A,Ci_0_4_B)|~Ci_0_4_A=Ci_0_4_B)).
+cnf(i_0_5,plain,(r1_tarski(Ci_0_5_A,Ci_0_5_B)|~Ci_0_5_A=Ci_0_5_B)).
+cnf(i_0_3,plain,(Ci_0_3_A=Ci_0_3_B|~r1_tarski(Ci_0_3_B,Ci_0_3_A)|~r1_tarski(Ci_0_3_A,Ci_0_3_B))).
+cnf(i_0_6,plain,(r1_tarski(k2_enumset1(Ci_0_6_A,Ci_0_6_B,Ci_0_6_C,Ci_0_6_D),k10_xtuple_0(k2_quaterni(Ci_0_6_E,Ci_0_6_F,Ci_0_6_G,Ci_0_6_H,Ci_0_6_A,Ci_0_6_B,Ci_0_6_C,Ci_0_6_D)))|~r2_zfmisc_1(Ci_0_6_E,Ci_0_6_F,Ci_0_6_G,Ci_0_6_H))).

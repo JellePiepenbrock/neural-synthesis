@@ -1,0 +1,9 @@
+cnf(i_0_8,negated_conjecture,(v1_relat_1(esk1_0))).
+cnf(i_0_6,negated_conjecture,(v1_funct_1(esk1_0))).
+cnf(i_0_5,negated_conjecture,(v1_finset_1(esk1_0))).
+cnf(i_0_4,negated_conjecture,(v1_glib_000(esk1_0))).
+cnf(i_0_7,negated_conjecture,(v4_relat_1(esk1_0,k5_numbers))).
+cnf(i_0_3,negated_conjecture,(m3_glib_001(esk2_0,esk1_0))).
+cnf(i_0_2,negated_conjecture,(m1_subset_1(esk3_0,k5_numbers))).
+cnf(i_0_1,negated_conjecture,(~r1_relset_1(k5_numbers,k7_glib_000(esk1_0),k12_glib_001(esk1_0,k8_glib_001(esk1_0,esk2_0,np__1,esk3_0)),k12_glib_001(esk1_0,esk2_0)))).
+cnf(i_0_9,plain,(r1_relset_1(k5_numbers,k7_glib_000(Ci_0_9_A),k12_glib_001(Ci_0_9_A,k8_glib_001(Ci_0_9_A,Ci_0_9_B,np__1,Ci_0_9_C)),k12_glib_001(Ci_0_9_A,Ci_0_9_B))|~v1_relat_1(Ci_0_9_A)|~v1_funct_1(Ci_0_9_A)|~v1_finset_1(Ci_0_9_A)|~v1_glib_000(Ci_0_9_A)|~m3_glib_001(Ci_0_9_B,Ci_0_9_A)|~v4_relat_1(Ci_0_9_A,k5_numbers)|~m1_subset_1(Ci_0_9_C,k5_numbers))).

@@ -1,0 +1,11 @@
+cnf(i_0_3,negated_conjecture,(v1_finset_1(esk2_0))).
+cnf(i_0_5,plain,(v4_finsub_1(k5_finsub_1(Ci_0_5_A)))).
+cnf(i_0_2,negated_conjecture,(m2_subset_1(esk3_0,k5_finsub_1(k4_partfun1(esk1_0,esk2_0)),k1_substlat(esk1_0,esk2_0)))).
+cnf(i_0_11,plain,(m1_subset_1(k1_substlat(Ci_0_11_A,Ci_0_11_B),k1_zfmisc_1(k5_finsub_1(k4_partfun1(Ci_0_11_A,Ci_0_11_B)))))).
+cnf(i_0_6,plain,(~v1_xboole_0(k5_finsub_1(Ci_0_6_A)))).
+cnf(i_0_10,plain,(~v1_xboole_0(k4_partfun1(Ci_0_10_A,Ci_0_10_B)))).
+cnf(i_0_7,plain,(~v1_xboole_0(k1_substlat(Ci_0_7_A,Ci_0_7_B)))).
+cnf(i_0_1,negated_conjecture,(~k2_lattice2(k4_partfun1(esk1_0,esk2_0),k5_substlat(esk1_0,esk2_0),esk3_0,k8_heyting2(esk1_0,esk2_0))=esk3_0)).
+cnf(i_0_4,plain,(v1_xboole_0(Ci_0_4_A)|v1_xboole_0(Ci_0_4_B)|m1_subset_1(Ci_0_4_C,Ci_0_4_B)|~m2_subset_1(Ci_0_4_C,Ci_0_4_B,Ci_0_4_A)|~m1_subset_1(Ci_0_4_A,k1_zfmisc_1(Ci_0_4_B)))).
+cnf(i_0_8,plain,(k10_setwiseo(Ci_0_8_A,Ci_0_8_A,Ci_0_8_B,k11_setwiseo(Ci_0_8_A))=Ci_0_8_B|v1_xboole_0(Ci_0_8_A)|~m1_subset_1(Ci_0_8_B,k5_finsub_1(Ci_0_8_A)))).
+cnf(i_0_9,plain,(k10_setwiseo(k4_partfun1(Ci_0_9_A,Ci_0_9_B),k4_partfun1(Ci_0_9_A,Ci_0_9_B),Ci_0_9_C,k11_setwiseo(k4_partfun1(Ci_0_9_A,Ci_0_9_B)))=k2_lattice2(k4_partfun1(Ci_0_9_A,Ci_0_9_B),k5_substlat(Ci_0_9_A,Ci_0_9_B),Ci_0_9_C,k8_heyting2(Ci_0_9_A,Ci_0_9_B))|~v1_finset_1(Ci_0_9_B)|~m2_subset_1(Ci_0_9_C,k5_finsub_1(k4_partfun1(Ci_0_9_A,Ci_0_9_B)),k1_substlat(Ci_0_9_A,Ci_0_9_B)))).

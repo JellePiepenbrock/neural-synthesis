@@ -1,0 +1,7 @@
+cnf(i_0_4,negated_conjecture,(m1_subset_1(esk2_0,k1_numbers))).
+cnf(i_0_5,negated_conjecture,(m1_subset_1(esk1_0,k1_zfmisc_1(k1_numbers)))).
+cnf(i_0_3,negated_conjecture,(v3_xxreal_2(k1_integra2(esk1_0,esk2_0)))).
+cnf(i_0_6,negated_conjecture,(~v1_xboole_0(esk1_0))).
+cnf(i_0_1,negated_conjecture,(~v3_xxreal_2(esk1_0))).
+cnf(i_0_2,negated_conjecture,(~r1_xxreal_0(esk2_0,k6_numbers))).
+cnf(i_0_7,plain,(v1_xboole_0(Ci_0_7_A)|v3_xxreal_2(Ci_0_7_A)|r1_xxreal_0(Ci_0_7_B,k6_numbers)|~m1_subset_1(Ci_0_7_B,k1_numbers)|~v3_xxreal_2(k1_integra2(Ci_0_7_A,Ci_0_7_B))|~m1_subset_1(Ci_0_7_A,k1_zfmisc_1(k1_numbers)))).

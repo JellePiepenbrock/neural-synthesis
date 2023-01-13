@@ -1,0 +1,10 @@
+cnf(i_0_1,negated_conjecture,(~r1_xboole_0(k4_xboole_0(esk1_0,esk2_0),k4_xboole_0(esk2_0,esk1_0)))).
+cnf(i_0_9,plain,(r1_xboole_0(Ci_0_9_A,Ci_0_9_B)|r2_hidden(esk4_2(Ci_0_9_A,Ci_0_9_B),Ci_0_9_B))).
+cnf(i_0_10,plain,(r1_xboole_0(Ci_0_10_A,Ci_0_10_B)|r2_hidden(esk4_2(Ci_0_10_A,Ci_0_10_B),Ci_0_10_A))).
+cnf(i_0_7,plain,(r2_hidden(Ci_0_7_A,Ci_0_7_B)|~Ci_0_7_C=k4_xboole_0(Ci_0_7_B,Ci_0_7_D)|~r2_hidden(Ci_0_7_A,Ci_0_7_C))).
+cnf(i_0_8,plain,(~r1_xboole_0(Ci_0_8_A,Ci_0_8_B)|~r2_hidden(Ci_0_8_C,Ci_0_8_B)|~r2_hidden(Ci_0_8_C,Ci_0_8_A))).
+cnf(i_0_6,plain,(~Ci_0_6_A=k4_xboole_0(Ci_0_6_B,Ci_0_6_C)|~r2_hidden(Ci_0_6_D,Ci_0_6_A)|~r2_hidden(Ci_0_6_D,Ci_0_6_C))).
+cnf(i_0_5,plain,(r2_hidden(Ci_0_5_A,Ci_0_5_B)|r2_hidden(Ci_0_5_A,Ci_0_5_C)|~Ci_0_5_B=k4_xboole_0(Ci_0_5_D,Ci_0_5_C)|~r2_hidden(Ci_0_5_A,Ci_0_5_D))).
+cnf(i_0_3,plain,(Ci_0_3_A=k4_xboole_0(Ci_0_3_B,Ci_0_3_C)|r2_hidden(esk3_3(Ci_0_3_B,Ci_0_3_C,Ci_0_3_A),Ci_0_3_A)|r2_hidden(esk3_3(Ci_0_3_B,Ci_0_3_C,Ci_0_3_A),Ci_0_3_B))).
+cnf(i_0_2,plain,(Ci_0_2_A=k4_xboole_0(Ci_0_2_B,Ci_0_2_C)|r2_hidden(esk3_3(Ci_0_2_B,Ci_0_2_C,Ci_0_2_A),Ci_0_2_A)|~r2_hidden(esk3_3(Ci_0_2_B,Ci_0_2_C,Ci_0_2_A),Ci_0_2_C))).
+cnf(i_0_4,plain,(Ci_0_4_A=k4_xboole_0(Ci_0_4_B,Ci_0_4_C)|r2_hidden(esk3_3(Ci_0_4_B,Ci_0_4_C,Ci_0_4_A),Ci_0_4_C)|~r2_hidden(esk3_3(Ci_0_4_B,Ci_0_4_C,Ci_0_4_A),Ci_0_4_A)|~r2_hidden(esk3_3(Ci_0_4_B,Ci_0_4_C,Ci_0_4_A),Ci_0_4_B))).

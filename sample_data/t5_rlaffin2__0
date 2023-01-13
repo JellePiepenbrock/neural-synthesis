@@ -1,0 +1,5 @@
+cnf(i_0_3,negated_conjecture,(l1_rlvect_1(esk1_0))).
+cnf(i_0_2,negated_conjecture,(m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(esk1_0))))).
+cnf(i_0_4,negated_conjecture,(~v2_struct_0(esk1_0))).
+cnf(i_0_1,negated_conjecture,(~r1_tarski(k1_rlaffin2(esk1_0,esk2_0),k3_convex1(esk1_0,esk2_0)))).
+cnf(i_0_5,plain,(v2_struct_0(Ci_0_5_A)|r1_tarski(k1_rlaffin2(Ci_0_5_A,Ci_0_5_B),k3_convex1(Ci_0_5_A,Ci_0_5_B))|~l1_rlvect_1(Ci_0_5_A)|~m1_subset_1(Ci_0_5_B,k1_zfmisc_1(u1_struct_0(Ci_0_5_A))))).

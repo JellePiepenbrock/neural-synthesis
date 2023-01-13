@@ -1,0 +1,10 @@
+cnf(i_0_4,negated_conjecture,(v7_ordinal1(esk1_0))).
+cnf(i_0_3,negated_conjecture,(v7_ordinal1(esk2_0))).
+cnf(i_0_6,plain,(v1_finset_1(Ci_0_6_A)|~v7_ordinal1(Ci_0_6_A))).
+cnf(i_0_5,plain,(k5_card_1(Ci_0_5_A)=k1_card_1(Ci_0_5_A)|~v1_finset_1(Ci_0_5_A))).
+cnf(i_0_1,negated_conjecture,(r1_xxreal_0(esk1_0,esk2_0)|r1_ordinal1(k5_card_1(esk1_0),k5_card_1(esk2_0)))).
+cnf(i_0_2,negated_conjecture,(~r1_xxreal_0(esk1_0,esk2_0)|~r1_ordinal1(k5_card_1(esk1_0),k5_card_1(esk2_0)))).
+cnf(i_0_10,plain,(r1_ordinal1(Ci_0_10_A,Ci_0_10_B)|~v7_ordinal1(Ci_0_10_B)|~v7_ordinal1(Ci_0_10_A)|~r1_xxreal_0(Ci_0_10_A,Ci_0_10_B))).
+cnf(i_0_9,plain,(r1_xxreal_0(Ci_0_9_A,Ci_0_9_B)|~v7_ordinal1(Ci_0_9_B)|~v7_ordinal1(Ci_0_9_A)|~r1_ordinal1(Ci_0_9_A,Ci_0_9_B))).
+cnf(i_0_7,plain,(r1_ordinal1(k1_card_1(Ci_0_7_A),k1_card_1(Ci_0_7_B))|~v7_ordinal1(Ci_0_7_B)|~v7_ordinal1(Ci_0_7_A)|~r1_ordinal1(Ci_0_7_A,Ci_0_7_B))).
+cnf(i_0_8,plain,(r1_ordinal1(Ci_0_8_A,Ci_0_8_B)|~v7_ordinal1(Ci_0_8_B)|~v7_ordinal1(Ci_0_8_A)|~r1_ordinal1(k1_card_1(Ci_0_8_A),k1_card_1(Ci_0_8_B)))).

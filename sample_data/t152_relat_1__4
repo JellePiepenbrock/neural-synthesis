@@ -1,0 +1,12 @@
+cnf(i_0_3,negated_conjecture,(v1_relat_1(esk1_0))).
+cnf(i_0_12,plain,(v1_xboole_0(k1_xboole_0))).
+cnf(i_0_2,negated_conjecture,(r1_xboole_0(esk2_0,k9_xtuple_0(esk1_0)))).
+cnf(i_0_5,plain,(k3_xboole_0(Ci_0_5_A,Ci_0_5_B)=k3_xboole_0(Ci_0_5_B,Ci_0_5_A))).
+cnf(i_0_1,negated_conjecture,(~k5_relat_1(esk1_0,esk2_0)=k1_xboole_0)).
+cnf(i_0_9,plain,(Ci_0_9_A=k1_xboole_0|~v1_xboole_0(Ci_0_9_A))).
+cnf(i_0_8,plain,(k5_relat_1(Ci_0_8_A,k9_xtuple_0(Ci_0_8_A))=Ci_0_8_A|~v1_relat_1(Ci_0_8_A))).
+cnf(i_0_7,plain,(k3_xboole_0(Ci_0_7_A,Ci_0_7_B)=k1_xboole_0|~r1_xboole_0(Ci_0_7_A,Ci_0_7_B))).
+cnf(i_0_6,plain,(r1_xboole_0(Ci_0_6_A,Ci_0_6_B)|~k3_xboole_0(Ci_0_6_A,Ci_0_6_B)=k1_xboole_0)).
+cnf(i_0_10,plain,(v1_relat_1(k5_relat_1(Ci_0_10_A,Ci_0_10_B))|~v1_relat_1(Ci_0_10_A)|~v1_xboole_0(Ci_0_10_B))).
+cnf(i_0_11,plain,(v1_xboole_0(k5_relat_1(Ci_0_11_A,Ci_0_11_B))|~v1_relat_1(Ci_0_11_A)|~v1_xboole_0(Ci_0_11_B))).
+cnf(i_0_4,plain,(k5_relat_1(k5_relat_1(Ci_0_4_A,Ci_0_4_B),Ci_0_4_C)=k5_relat_1(Ci_0_4_A,k3_xboole_0(Ci_0_4_B,Ci_0_4_C))|~v1_relat_1(Ci_0_4_A))).

@@ -1,0 +1,12 @@
+cnf(i_0_1,negated_conjecture,(~r1_tarski(k3_tarski(esk1_0),k3_tarski(esk2_0)))).
+cnf(i_0_3,negated_conjecture,(r1_tarski(esk3_1(Ci_0_3_A),esk2_0)|~r2_hidden(Ci_0_3_A,esk1_0))).
+cnf(i_0_2,negated_conjecture,(r1_tarski(Ci_0_2_A,k3_tarski(esk3_1(Ci_0_2_A)))|~r2_hidden(Ci_0_2_A,esk1_0))).
+cnf(i_0_5,plain,(r1_tarski(Ci_0_5_A,Ci_0_5_B)|r2_hidden(esk4_2(Ci_0_5_A,Ci_0_5_B),Ci_0_5_A))).
+cnf(i_0_6,plain,(r2_hidden(Ci_0_6_A,Ci_0_6_B)|~r2_hidden(Ci_0_6_A,Ci_0_6_C)|~r1_tarski(Ci_0_6_C,Ci_0_6_B))).
+cnf(i_0_10,plain,(r2_hidden(Ci_0_10_A,Ci_0_10_B)|~Ci_0_10_B=k3_tarski(Ci_0_10_C)|~r2_hidden(Ci_0_10_D,Ci_0_10_C)|~r2_hidden(Ci_0_10_A,Ci_0_10_D))).
+cnf(i_0_4,plain,(r1_tarski(Ci_0_4_A,Ci_0_4_B)|~r2_hidden(esk4_2(Ci_0_4_A,Ci_0_4_B),Ci_0_4_B))).
+cnf(i_0_7,plain,(Ci_0_7_A=k3_tarski(Ci_0_7_B)|r2_hidden(esk6_2(Ci_0_7_B,Ci_0_7_A),Ci_0_7_A)|r2_hidden(esk7_2(Ci_0_7_B,Ci_0_7_A),Ci_0_7_B))).
+cnf(i_0_8,plain,(Ci_0_8_A=k3_tarski(Ci_0_8_B)|r2_hidden(esk6_2(Ci_0_8_B,Ci_0_8_A),Ci_0_8_A)|r2_hidden(esk6_2(Ci_0_8_B,Ci_0_8_A),esk7_2(Ci_0_8_B,Ci_0_8_A)))).
+cnf(i_0_12,plain,(r2_hidden(Ci_0_12_A,esk5_3(Ci_0_12_B,Ci_0_12_C,Ci_0_12_A))|~Ci_0_12_C=k3_tarski(Ci_0_12_B)|~r2_hidden(Ci_0_12_A,Ci_0_12_C))).
+cnf(i_0_11,plain,(r2_hidden(esk5_3(Ci_0_11_A,Ci_0_11_B,Ci_0_11_C),Ci_0_11_A)|~Ci_0_11_B=k3_tarski(Ci_0_11_A)|~r2_hidden(Ci_0_11_C,Ci_0_11_B))).
+cnf(i_0_9,plain,(Ci_0_9_A=k3_tarski(Ci_0_9_B)|~r2_hidden(Ci_0_9_C,Ci_0_9_B)|~r2_hidden(esk6_2(Ci_0_9_B,Ci_0_9_A),Ci_0_9_C)|~r2_hidden(esk6_2(Ci_0_9_B,Ci_0_9_A),Ci_0_9_A))).

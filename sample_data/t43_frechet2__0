@@ -1,0 +1,7 @@
+cnf(i_0_4,negated_conjecture,(v2_pre_topc(esk1_0))).
+cnf(i_0_3,negated_conjecture,(l1_pre_topc(esk1_0))).
+cnf(i_0_5,negated_conjecture,(~v2_struct_0(esk1_0))).
+cnf(i_0_1,negated_conjecture,(~v7_pre_topc(esk1_0))).
+cnf(i_0_7,plain,(v2_struct_0(Ci_0_7_A)|v7_pre_topc(Ci_0_7_A)|m1_subset_1(esk2_1(Ci_0_7_A),u1_struct_0(Ci_0_7_A))|~v2_pre_topc(Ci_0_7_A)|~l1_pre_topc(Ci_0_7_A))).
+cnf(i_0_2,negated_conjecture,(k2_pre_topc(esk1_0,k6_domain_1(u1_struct_0(esk1_0),Ci_0_2_A))=k6_domain_1(u1_struct_0(esk1_0),Ci_0_2_A)|~m1_subset_1(Ci_0_2_A,u1_struct_0(esk1_0)))).
+cnf(i_0_6,plain,(v2_struct_0(Ci_0_6_A)|v7_pre_topc(Ci_0_6_A)|~k2_pre_topc(Ci_0_6_A,k6_domain_1(u1_struct_0(Ci_0_6_A),esk2_1(Ci_0_6_A)))=k6_domain_1(u1_struct_0(Ci_0_6_A),esk2_1(Ci_0_6_A))|~v2_pre_topc(Ci_0_6_A)|~l1_pre_topc(Ci_0_6_A))).

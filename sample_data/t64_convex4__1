@@ -1,0 +1,7 @@
+cnf(i_0_5,negated_conjecture,(l2_algstr_0(esk1_0))).
+cnf(i_0_4,negated_conjecture,(v1_xboole_0(esk2_0))).
+cnf(i_0_3,negated_conjecture,(m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(esk1_0))))).
+cnf(i_0_2,negated_conjecture,(m1_subset_1(esk3_0,k1_zfmisc_1(u1_struct_0(esk1_0))))).
+cnf(i_0_6,negated_conjecture,(~v2_struct_0(esk1_0))).
+cnf(i_0_1,negated_conjecture,(~k6_rusub_4(esk1_0,esk2_0,esk3_0)=k1_xboole_0)).
+cnf(i_0_7,plain,(k6_rusub_4(Ci_0_7_A,Ci_0_7_B,Ci_0_7_C)=k1_xboole_0|v2_struct_0(Ci_0_7_A)|~l2_algstr_0(Ci_0_7_A)|~v1_xboole_0(Ci_0_7_B)|~m1_subset_1(Ci_0_7_C,k1_zfmisc_1(u1_struct_0(Ci_0_7_A)))|~m1_subset_1(Ci_0_7_B,k1_zfmisc_1(u1_struct_0(Ci_0_7_A))))).

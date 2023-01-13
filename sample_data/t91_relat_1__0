@@ -1,0 +1,7 @@
+cnf(i_0_3,negated_conjecture,(v1_relat_1(esk2_0))).
+cnf(i_0_2,negated_conjecture,(v1_relat_1(esk3_0))).
+cnf(i_0_7,plain,(r1_tarski(Ci_0_7_A,Ci_0_7_A))).
+cnf(i_0_1,negated_conjecture,(~r1_tarski(k3_relat_1(esk2_0,k6_relat_1(esk1_0,esk3_0)),k3_relat_1(esk2_0,esk3_0)))).
+cnf(i_0_6,plain,(v1_relat_1(k6_relat_1(Ci_0_6_A,Ci_0_6_B))|~v1_relat_1(Ci_0_6_B))).
+cnf(i_0_5,plain,(r1_tarski(k6_relat_1(Ci_0_5_A,Ci_0_5_B),Ci_0_5_B)|~v1_relat_1(Ci_0_5_B))).
+cnf(i_0_4,plain,(r1_tarski(k3_relat_1(Ci_0_4_A,Ci_0_4_B),k3_relat_1(Ci_0_4_C,Ci_0_4_D))|~v1_relat_1(Ci_0_4_D)|~v1_relat_1(Ci_0_4_B)|~v1_relat_1(Ci_0_4_C)|~v1_relat_1(Ci_0_4_A)|~r1_tarski(Ci_0_4_B,Ci_0_4_D)|~r1_tarski(Ci_0_4_A,Ci_0_4_C))).

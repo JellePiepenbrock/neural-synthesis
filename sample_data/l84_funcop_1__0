@@ -1,0 +1,7 @@
+cnf(i_0_6,plain,(v1_funct_1(k7_funcop_1(Ci_0_6_A,Ci_0_6_B)))).
+cnf(i_0_7,plain,(k2_zfmisc_1(k1_tarski(Ci_0_7_A),k1_tarski(Ci_0_7_B))=k1_tarski(k4_tarski(Ci_0_7_A,Ci_0_7_B)))).
+cnf(i_0_3,plain,(k2_tarski(k2_tarski(Ci_0_3_A,Ci_0_3_B),k1_tarski(Ci_0_3_A))=k4_tarski(Ci_0_3_A,Ci_0_3_B))).
+cnf(i_0_5,plain,(v1_funct_2(k7_funcop_1(Ci_0_5_A,Ci_0_5_B),Ci_0_5_A,k1_tarski(Ci_0_5_B)))).
+cnf(i_0_4,plain,(m1_subset_1(k7_funcop_1(Ci_0_4_A,Ci_0_4_B),k1_zfmisc_1(k2_zfmisc_1(Ci_0_4_A,k1_tarski(Ci_0_4_B)))))).
+cnf(i_0_2,plain,(k7_funcop_1(k1_tarski(k4_tarski(Ci_0_2_A,Ci_0_2_B)),Ci_0_2_C)=k13_funcop_1(Ci_0_2_A,Ci_0_2_B,Ci_0_2_C))).
+cnf(i_0_1,negated_conjecture,(~v1_funct_1(k13_funcop_1(esk1_0,esk2_0,esk3_0))|~v1_funct_2(k13_funcop_1(esk4_0,esk5_0,esk6_0),k2_zfmisc_1(k1_tarski(esk4_0),k1_tarski(esk5_0)),k1_tarski(esk6_0))|~m1_subset_1(k13_funcop_1(esk7_0,esk8_0,esk9_0),k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_tarski(esk7_0),k1_tarski(esk8_0)),k1_tarski(esk9_0)))))).

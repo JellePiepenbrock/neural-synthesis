@@ -1,0 +1,13 @@
+cnf(i_0_11,plain,(k4_ordinal1=k5_numbers)).
+cnf(i_0_13,plain,(k6_numbers=k1_xboole_0)).
+cnf(i_0_7,plain,(v2_xxreal_0(np__1))).
+cnf(i_0_5,plain,(m1_subset_1(np__1,k5_numbers))).
+cnf(i_0_4,plain,(m1_subset_1(np__1,k1_numbers))).
+cnf(i_0_12,plain,(m1_subset_1(k1_xboole_0,k4_ordinal1))).
+cnf(i_0_2,plain,(m1_subset_1(k5_numbers,k1_zfmisc_1(k1_numbers)))).
+cnf(i_0_6,plain,(m2_subset_1(np__1,k1_numbers,k5_numbers))).
+cnf(i_0_3,plain,(v3_membered(Ci_0_3_A)|~m1_subset_1(Ci_0_3_A,k1_zfmisc_1(k1_numbers)))).
+cnf(i_0_8,plain,(v1_xreal_0(Ci_0_8_A)|~v3_membered(Ci_0_8_B)|~m1_subset_1(Ci_0_8_A,Ci_0_8_B))).
+cnf(i_0_10,plain,(k17_euclid(k19_euclid(Ci_0_10_A,Ci_0_10_B))=Ci_0_10_A|~v1_xreal_0(Ci_0_10_B)|~v1_xreal_0(Ci_0_10_A))).
+cnf(i_0_9,plain,(k18_euclid(k19_euclid(Ci_0_9_A,Ci_0_9_B))=Ci_0_9_B|~v1_xreal_0(Ci_0_9_B)|~v1_xreal_0(Ci_0_9_A))).
+cnf(i_0_1,negated_conjecture,(~k17_euclid(k19_euclid(np__1,k6_numbers))=np__1|~k18_euclid(k19_euclid(np__1,k6_numbers))=k6_numbers)).

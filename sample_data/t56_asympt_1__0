@@ -1,0 +1,5 @@
+cnf(i_0_2,negated_conjecture,(r1_xxreal_0(esk2_0,esk1_0))).
+cnf(i_0_4,negated_conjecture,(m2_subset_1(esk1_0,k1_numbers,k5_numbers))).
+cnf(i_0_3,negated_conjecture,(m2_subset_1(esk2_0,k1_numbers,k5_numbers))).
+cnf(i_0_1,negated_conjecture,(~r1_xxreal_0(k9_newton(esk2_0),k9_newton(esk1_0)))).
+cnf(i_0_5,plain,(r1_xxreal_0(k9_newton(Ci_0_5_A),k9_newton(Ci_0_5_B))|~r1_xxreal_0(Ci_0_5_A,Ci_0_5_B)|~m2_subset_1(Ci_0_5_A,k1_numbers,k5_numbers)|~m2_subset_1(Ci_0_5_B,k1_numbers,k5_numbers))).

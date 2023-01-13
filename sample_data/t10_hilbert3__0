@@ -1,0 +1,5 @@
+cnf(i_0_3,negated_conjecture,(k4_funct_4(esk1_0,esk2_0,esk3_0,esk4_0)=k4_funct_4(esk1_0,esk2_0,esk5_0,esk6_0))).
+cnf(i_0_4,plain,(k1_funct_1(k4_funct_4(Ci_0_4_A,Ci_0_4_B,Ci_0_4_C,Ci_0_4_D),Ci_0_4_B)=Ci_0_4_D)).
+cnf(i_0_2,negated_conjecture,(~esk2_0=esk1_0)).
+cnf(i_0_1,negated_conjecture,(~esk3_0=esk5_0|~esk4_0=esk6_0)).
+cnf(i_0_5,plain,(Ci_0_5_A=Ci_0_5_B|k1_funct_1(k4_funct_4(Ci_0_5_A,Ci_0_5_B,Ci_0_5_C,Ci_0_5_D),Ci_0_5_A)=Ci_0_5_C)).

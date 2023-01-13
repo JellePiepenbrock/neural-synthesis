@@ -1,0 +1,8 @@
+cnf(i_0_4,negated_conjecture,(r1_tarski(esk1_0,esk2_0))).
+cnf(i_0_3,negated_conjecture,(r1_tarski(esk1_0,esk3_0))).
+cnf(i_0_2,negated_conjecture,(r1_xboole_0(esk2_0,esk3_0))).
+cnf(i_0_1,negated_conjecture,(~k1_xboole_0=esk1_0)).
+cnf(i_0_8,plain,(Ci_0_8_A=k1_xboole_0|~r1_tarski(Ci_0_8_A,k1_xboole_0))).
+cnf(i_0_6,plain,(k3_xboole_0(Ci_0_6_A,Ci_0_6_B)=k1_xboole_0|~r1_xboole_0(Ci_0_6_A,Ci_0_6_B))).
+cnf(i_0_5,plain,(r1_xboole_0(Ci_0_5_A,Ci_0_5_B)|~k3_xboole_0(Ci_0_5_A,Ci_0_5_B)=k1_xboole_0)).
+cnf(i_0_7,plain,(r1_tarski(Ci_0_7_A,k3_xboole_0(Ci_0_7_B,Ci_0_7_C))|~r1_tarski(Ci_0_7_A,Ci_0_7_C)|~r1_tarski(Ci_0_7_A,Ci_0_7_B))).

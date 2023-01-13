@@ -1,0 +1,13 @@
+cnf(i_0_8,negated_conjecture,(v7_ordinal1(esk3_0))).
+cnf(i_0_3,negated_conjecture,(v4_matrix10(esk4_0))).
+cnf(i_0_2,negated_conjecture,(v4_matrix10(esk5_0))).
+cnf(i_0_10,negated_conjecture,(m1_subset_1(esk1_0,k1_numbers))).
+cnf(i_0_9,negated_conjecture,(m1_subset_1(esk2_0,k1_numbers))).
+cnf(i_0_5,negated_conjecture,(r1_xxreal_0(k6_numbers,esk1_0))).
+cnf(i_0_4,negated_conjecture,(r1_xxreal_0(k6_numbers,esk2_0))).
+cnf(i_0_7,negated_conjecture,(m1_matrix_1(esk4_0,k1_numbers,esk3_0,esk3_0))).
+cnf(i_0_6,negated_conjecture,(m1_matrix_1(esk5_0,k1_numbers,esk3_0,esk3_0))).
+cnf(i_0_1,negated_conjecture,(~v4_matrix10(k3_matrix10(esk3_0,k5_matrix10(esk3_0,esk1_0,esk4_0),k5_matrix10(esk3_0,esk2_0,esk5_0))))).
+cnf(i_0_13,plain,(v4_matrix10(k5_matrix10(Ci_0_13_A,Ci_0_13_B,Ci_0_13_C))|~v7_ordinal1(Ci_0_13_A)|~v4_matrix10(Ci_0_13_C)|~m1_subset_1(Ci_0_13_B,k1_numbers)|~r1_xxreal_0(k6_numbers,Ci_0_13_B)|~m1_matrix_1(Ci_0_13_C,k1_numbers,Ci_0_13_A,Ci_0_13_A))).
+cnf(i_0_12,plain,(m1_matrix_1(k5_matrix10(Ci_0_12_A,Ci_0_12_B,Ci_0_12_C),k1_numbers,Ci_0_12_A,Ci_0_12_A)|~v7_ordinal1(Ci_0_12_A)|~m1_subset_1(Ci_0_12_B,k1_numbers)|~m1_matrix_1(Ci_0_12_C,k1_numbers,Ci_0_12_A,Ci_0_12_A))).
+cnf(i_0_11,plain,(v4_matrix10(k3_matrix10(Ci_0_11_A,Ci_0_11_B,Ci_0_11_C))|~v7_ordinal1(Ci_0_11_A)|~v4_matrix10(Ci_0_11_C)|~v4_matrix10(Ci_0_11_B)|~m1_matrix_1(Ci_0_11_C,k1_numbers,Ci_0_11_A,Ci_0_11_A)|~m1_matrix_1(Ci_0_11_B,k1_numbers,Ci_0_11_A,Ci_0_11_A))).

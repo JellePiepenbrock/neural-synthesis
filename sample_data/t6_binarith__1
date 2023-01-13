@@ -1,0 +1,7 @@
+cnf(i_0_3,negated_conjecture,(v1_xboolean(esk1_0))).
+cnf(i_0_2,negated_conjecture,(v1_xboolean(esk2_0))).
+cnf(i_0_1,negated_conjecture,(~k3_xboolean(k5_xboolean(k3_xboolean(esk1_0),k3_xboolean(esk2_0)))=k4_xboolean(esk1_0,esk2_0))).
+cnf(i_0_6,plain,(v1_xboolean(k3_xboolean(Ci_0_6_A))|~v1_xboolean(Ci_0_6_A))).
+cnf(i_0_5,plain,(k3_xboolean(k3_xboolean(Ci_0_5_A))=Ci_0_5_A|~v1_xboolean(Ci_0_5_A))).
+cnf(i_0_7,plain,(v1_xboolean(k4_xboolean(Ci_0_7_A,Ci_0_7_B))|~v1_xboolean(Ci_0_7_B)|~v1_xboolean(Ci_0_7_A))).
+cnf(i_0_4,plain,(k3_xboolean(k4_xboolean(k3_xboolean(Ci_0_4_A),k3_xboolean(Ci_0_4_B)))=k5_xboolean(Ci_0_4_A,Ci_0_4_B)|~v1_xboolean(Ci_0_4_B)|~v1_xboolean(Ci_0_4_A))).

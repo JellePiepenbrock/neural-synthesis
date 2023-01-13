@@ -1,0 +1,7 @@
+cnf(i_0_2,negated_conjecture,(v6_membered(esk2_0))).
+cnf(i_0_3,negated_conjecture,(r2_hidden(esk2_0,esk1_0))).
+cnf(i_0_1,negated_conjecture,(~v6_membered(k1_setfam_1(esk1_0)))).
+cnf(i_0_4,plain,(m1_subset_1(Ci_0_4_A,k1_zfmisc_1(Ci_0_4_B))|~r1_tarski(Ci_0_4_A,Ci_0_4_B))).
+cnf(i_0_6,plain,(r1_tarski(k1_setfam_1(Ci_0_6_A),Ci_0_6_B)|~r2_hidden(Ci_0_6_B,Ci_0_6_A))).
+cnf(i_0_7,plain,(v6_membered(Ci_0_7_A)|~v6_membered(Ci_0_7_B)|~m1_subset_1(Ci_0_7_A,k1_zfmisc_1(Ci_0_7_B)))).
+cnf(i_0_5,plain,(r1_tarski(Ci_0_5_A,Ci_0_5_B)|~m1_subset_1(Ci_0_5_A,k1_zfmisc_1(Ci_0_5_B)))).

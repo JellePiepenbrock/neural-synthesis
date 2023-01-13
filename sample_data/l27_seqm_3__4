@@ -1,0 +1,13 @@
+cnf(i_0_10,plain,(k4_ordinal1=k5_numbers)).
+cnf(i_0_9,plain,(v6_membered(k4_ordinal1))).
+cnf(i_0_13,plain,(v3_membered(k1_numbers))).
+cnf(i_0_3,plain,(m1_subset_1(k5_numbers,k1_zfmisc_1(k1_numbers)))).
+cnf(i_0_12,plain,(v2_membered(Ci_0_12_A)|~v3_membered(Ci_0_12_A))).
+cnf(i_0_4,plain,(v5_valued_0(k4_relat_1(Ci_0_4_A))|~v2_membered(Ci_0_4_A))).
+cnf(i_0_7,plain,(v4_valued_0(k4_relat_1(Ci_0_7_A))|~v6_membered(Ci_0_7_A))).
+cnf(i_0_6,plain,(v1_funct_1(k4_relat_1(Ci_0_6_A))|~v2_membered(Ci_0_6_A))).
+cnf(i_0_8,plain,(v1_relat_1(k4_relat_1(Ci_0_8_A))|~v6_membered(Ci_0_8_A))).
+cnf(i_0_11,plain,(v3_membered(Ci_0_11_A)|~v3_membered(Ci_0_11_B)|~m1_subset_1(Ci_0_11_A,k1_zfmisc_1(Ci_0_11_B)))).
+cnf(i_0_2,plain,(k6_funct_3(Ci_0_2_A,Ci_0_2_B)=k4_relat_1(Ci_0_2_B)|~m1_subset_1(Ci_0_2_B,k1_zfmisc_1(Ci_0_2_A)))).
+cnf(i_0_5,plain,(v1_funct_2(k4_relat_1(Ci_0_5_A),Ci_0_5_A,Ci_0_5_A)|~v2_membered(Ci_0_5_A))).
+cnf(i_0_1,negated_conjecture,(~v5_valued_0(k6_funct_3(k1_numbers,k5_numbers))|~v4_valued_0(k6_funct_3(k1_numbers,k5_numbers)))).

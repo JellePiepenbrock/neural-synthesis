@@ -1,0 +1,9 @@
+cnf(i_0_1,negated_conjecture,(v1_facirc_1(k2_msafree2(k8_fscirc_1(esk1_0,esk2_0,esk3_0))))).
+cnf(i_0_5,plain,(k2_circcomb(k8_facirc_1(Ci_0_5_A,Ci_0_5_B,Ci_0_5_C,k1_facirc_1),k4_fscirc_1(Ci_0_5_A,Ci_0_5_B,Ci_0_5_C))=k8_fscirc_1(Ci_0_5_A,Ci_0_5_B,Ci_0_5_C))).
+cnf(i_0_4,negated_conjecture,(~v1_xtuple_0(esk1_0))).
+cnf(i_0_3,negated_conjecture,(~v1_xtuple_0(esk2_0))).
+cnf(i_0_2,negated_conjecture,(~v1_xtuple_0(esk3_0))).
+cnf(i_0_6,plain,(k2_msafree2(k8_fscirc_1(Ci_0_6_A,Ci_0_6_B,Ci_0_6_C))=k1_enumset1(Ci_0_6_A,Ci_0_6_B,Ci_0_6_C)|v1_xtuple_0(Ci_0_6_C)|v1_xtuple_0(Ci_0_6_B)|v1_xtuple_0(Ci_0_6_A))).
+cnf(i_0_9,plain,(k2_msafree2(k4_fscirc_1(Ci_0_9_A,Ci_0_9_B,Ci_0_9_C))=k1_enumset1(Ci_0_9_A,Ci_0_9_B,Ci_0_9_C)|v1_xtuple_0(Ci_0_9_C)|v1_xtuple_0(Ci_0_9_B)|v1_xtuple_0(Ci_0_9_A))).
+cnf(i_0_7,plain,(v1_xtuple_0(Ci_0_7_A)|v1_xtuple_0(Ci_0_7_B)|v1_xtuple_0(Ci_0_7_C)|~v1_facirc_1(k2_msafree2(k4_fscirc_1(Ci_0_7_C,Ci_0_7_B,Ci_0_7_A))))).
+cnf(i_0_8,plain,(k2_xboole_0(k1_enumset1(k4_tarski(k10_finseq_1(Ci_0_8_A,Ci_0_8_B),k3_twoscomp),k4_tarski(k10_finseq_1(Ci_0_8_B,Ci_0_8_C),k2_twoscomp),k4_tarski(k10_finseq_1(Ci_0_8_A,Ci_0_8_C),k3_twoscomp)),k1_tarski(k6_fscirc_1(Ci_0_8_A,Ci_0_8_B,Ci_0_8_C)))=k3_msafree2(k4_fscirc_1(Ci_0_8_A,Ci_0_8_B,Ci_0_8_C))|v1_xtuple_0(Ci_0_8_C)|v1_xtuple_0(Ci_0_8_B)|v1_xtuple_0(Ci_0_8_A))).

@@ -1,0 +1,12 @@
+cnf(i_0_3,negated_conjecture,(esk2_0=esk1_0)).
+cnf(i_0_2,negated_conjecture,(v3_xxreal_2(esk2_0))).
+cnf(i_0_6,negated_conjecture,(m1_subset_1(esk1_0,k1_zfmisc_1(k7_numbers)))).
+cnf(i_0_4,negated_conjecture,(m1_subset_1(esk2_0,k1_zfmisc_1(k1_numbers)))).
+cnf(i_0_7,negated_conjecture,(~v1_xboole_0(esk1_0))).
+cnf(i_0_5,negated_conjecture,(~v1_xboole_0(esk2_0))).
+cnf(i_0_1,negated_conjecture,(~k5_seq_4(esk2_0)=k7_supinf_2(esk1_0)|~v3_xxreal_2(esk1_0))).
+cnf(i_0_9,plain,(k7_supinf_2(Ci_0_9_A)=k2_xxreal_2(Ci_0_9_A)|~v2_membered(Ci_0_9_A))).
+cnf(i_0_12,plain,(k3_seq_4(Ci_0_12_A)=k2_xxreal_2(Ci_0_12_A)|v1_xboole_0(Ci_0_12_A)|~v3_xxreal_2(Ci_0_12_A)|~v3_membered(Ci_0_12_A))).
+cnf(i_0_10,plain,(v2_membered(Ci_0_10_A)|~m1_subset_1(Ci_0_10_A,k1_zfmisc_1(k7_numbers)))).
+cnf(i_0_11,plain,(v3_membered(Ci_0_11_A)|~m1_subset_1(Ci_0_11_A,k1_zfmisc_1(k1_numbers)))).
+cnf(i_0_8,plain,(k5_seq_4(Ci_0_8_A)=k3_seq_4(Ci_0_8_A)|~m1_subset_1(Ci_0_8_A,k1_zfmisc_1(k1_numbers)))).

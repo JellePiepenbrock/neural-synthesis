@@ -1,0 +1,7 @@
+cnf(i_0_4,negated_conjecture,(k2_xtuple_0(esk3_0)=k2_xtuple_0(esk2_0))).
+cnf(i_0_6,negated_conjecture,(m1_subset_1(esk2_0,k5_coh_sp(esk1_0)))).
+cnf(i_0_5,negated_conjecture,(m1_subset_1(esk3_0,k5_coh_sp(esk1_0)))).
+cnf(i_0_3,negated_conjecture,(k6_coh_sp(esk1_0,esk3_0)=k6_coh_sp(esk1_0,esk2_0))).
+cnf(i_0_2,negated_conjecture,(k7_coh_sp(esk1_0,esk3_0)=k7_coh_sp(esk1_0,esk2_0))).
+cnf(i_0_1,negated_conjecture,(~esk3_0=esk2_0)).
+cnf(i_0_7,plain,(k4_tarski(k4_tarski(k6_coh_sp(Ci_0_7_A,Ci_0_7_B),k7_coh_sp(Ci_0_7_A,Ci_0_7_B)),k2_xtuple_0(Ci_0_7_B))=Ci_0_7_B|~m1_subset_1(Ci_0_7_B,k5_coh_sp(Ci_0_7_A)))).

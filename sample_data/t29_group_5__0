@@ -1,0 +1,13 @@
+cnf(i_0_6,negated_conjecture,(v2_group_1(esk1_0))).
+cnf(i_0_5,negated_conjecture,(v3_group_1(esk1_0))).
+cnf(i_0_4,negated_conjecture,(l3_algstr_0(esk1_0))).
+cnf(i_0_3,negated_conjecture,(m1_subset_1(esk2_0,u1_struct_0(esk1_0)))).
+cnf(i_0_2,negated_conjecture,(m1_subset_1(esk3_0,u1_struct_0(esk1_0)))).
+cnf(i_0_7,negated_conjecture,(~v2_struct_0(esk1_0))).
+cnf(i_0_10,plain,(v2_struct_0(Ci_0_10_A)|m1_subset_1(k2_group_1(Ci_0_10_A,Ci_0_10_B),u1_struct_0(Ci_0_10_A))|~v2_group_1(Ci_0_10_A)|~v3_group_1(Ci_0_10_A)|~l3_algstr_0(Ci_0_10_A)|~m1_subset_1(Ci_0_10_B,u1_struct_0(Ci_0_10_A)))).
+cnf(i_0_11,plain,(v2_struct_0(Ci_0_11_A)|m1_subset_1(k2_group_5(Ci_0_11_A,Ci_0_11_B,Ci_0_11_C),u1_struct_0(Ci_0_11_A))|~v2_group_1(Ci_0_11_A)|~v3_group_1(Ci_0_11_A)|~l3_algstr_0(Ci_0_11_A)|~m1_subset_1(Ci_0_11_C,u1_struct_0(Ci_0_11_A))|~m1_subset_1(Ci_0_11_B,u1_struct_0(Ci_0_11_A)))).
+cnf(i_0_13,plain,(k6_algstr_0(Ci_0_13_A,k2_group_1(Ci_0_13_A,Ci_0_13_B),k2_group_1(Ci_0_13_A,Ci_0_13_C))=k2_group_1(Ci_0_13_A,k6_algstr_0(Ci_0_13_A,Ci_0_13_C,Ci_0_13_B))|v2_struct_0(Ci_0_13_A)|~v2_group_1(Ci_0_13_A)|~v3_group_1(Ci_0_13_A)|~l3_algstr_0(Ci_0_13_A)|~m1_subset_1(Ci_0_13_B,u1_struct_0(Ci_0_13_A))|~m1_subset_1(Ci_0_13_C,u1_struct_0(Ci_0_13_A)))).
+cnf(i_0_9,plain,(k2_group_3(Ci_0_9_A,k2_group_5(Ci_0_9_A,Ci_0_9_B,Ci_0_9_C),k2_group_1(Ci_0_9_A,Ci_0_9_B))=k2_group_5(Ci_0_9_A,Ci_0_9_C,k2_group_1(Ci_0_9_A,Ci_0_9_B))|v2_struct_0(Ci_0_9_A)|~v2_group_1(Ci_0_9_A)|~v3_group_1(Ci_0_9_A)|~l3_algstr_0(Ci_0_9_A)|~m1_subset_1(Ci_0_9_B,u1_struct_0(Ci_0_9_A))|~m1_subset_1(Ci_0_9_C,u1_struct_0(Ci_0_9_A)))).
+cnf(i_0_12,plain,(k2_group_3(Ci_0_12_A,k2_group_5(Ci_0_12_A,Ci_0_12_B,Ci_0_12_C),k2_group_1(Ci_0_12_A,Ci_0_12_C))=k2_group_5(Ci_0_12_A,k2_group_1(Ci_0_12_A,Ci_0_12_C),Ci_0_12_B)|v2_struct_0(Ci_0_12_A)|~v2_group_1(Ci_0_12_A)|~v3_group_1(Ci_0_12_A)|~l3_algstr_0(Ci_0_12_A)|~m1_subset_1(Ci_0_12_B,u1_struct_0(Ci_0_12_A))|~m1_subset_1(Ci_0_12_C,u1_struct_0(Ci_0_12_A)))).
+cnf(i_0_8,plain,(k2_group_3(Ci_0_8_A,k2_group_3(Ci_0_8_A,Ci_0_8_B,Ci_0_8_C),Ci_0_8_D)=k2_group_3(Ci_0_8_A,Ci_0_8_B,k6_algstr_0(Ci_0_8_A,Ci_0_8_C,Ci_0_8_D))|v2_struct_0(Ci_0_8_A)|~v2_group_1(Ci_0_8_A)|~v3_group_1(Ci_0_8_A)|~l3_algstr_0(Ci_0_8_A)|~m1_subset_1(Ci_0_8_D,u1_struct_0(Ci_0_8_A))|~m1_subset_1(Ci_0_8_C,u1_struct_0(Ci_0_8_A))|~m1_subset_1(Ci_0_8_B,u1_struct_0(Ci_0_8_A)))).
+cnf(i_0_1,negated_conjecture,(~k2_group_3(esk1_0,k2_group_5(esk1_0,esk2_0,esk3_0),k2_group_1(esk1_0,k6_algstr_0(esk1_0,esk2_0,esk3_0)))=k2_group_5(esk1_0,k2_group_1(esk1_0,esk2_0),k2_group_1(esk1_0,esk3_0))|~k2_group_3(esk1_0,k2_group_5(esk1_0,esk2_0,esk3_0),k2_group_1(esk1_0,k6_algstr_0(esk1_0,esk3_0,esk2_0)))=k2_group_5(esk1_0,k2_group_1(esk1_0,esk2_0),k2_group_1(esk1_0,esk3_0)))).

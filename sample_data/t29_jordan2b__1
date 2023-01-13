@@ -1,0 +1,12 @@
+cnf(i_0_11,plain,(v3_membered(k1_numbers))).
+cnf(i_0_2,negated_conjecture,(m1_subset_1(esk1_0,u1_struct_0(k15_euclid(np__2))))).
+cnf(i_0_12,plain,(~v1_xboole_0(k1_numbers))).
+cnf(i_0_8,plain,(v1_xreal_0(Ci_0_8_A)|~v3_membered(Ci_0_8_B)|~m1_subset_1(Ci_0_8_A,Ci_0_8_B))).
+cnf(i_0_6,plain,(k10_finseq_1(Ci_0_6_A,Ci_0_6_B)=k19_euclid(Ci_0_6_A,Ci_0_6_B)|~v1_xreal_0(Ci_0_6_B)|~v1_xreal_0(Ci_0_6_A))).
+cnf(i_0_9,plain,(m1_subset_1(k17_euclid(Ci_0_9_A),k1_numbers)|~m1_subset_1(Ci_0_9_A,u1_struct_0(k15_euclid(np__2))))).
+cnf(i_0_10,plain,(m1_subset_1(k18_euclid(Ci_0_10_A),k1_numbers)|~m1_subset_1(Ci_0_10_A,u1_struct_0(k15_euclid(np__2))))).
+cnf(i_0_7,plain,(k19_euclid(k17_euclid(Ci_0_7_A),k18_euclid(Ci_0_7_A))=Ci_0_7_A|~m1_subset_1(Ci_0_7_A,u1_struct_0(k15_euclid(np__2))))).
+cnf(i_0_5,plain,(k2_finseq_4(Ci_0_5_A,Ci_0_5_B,Ci_0_5_C)=k10_finseq_1(Ci_0_5_B,Ci_0_5_C)|v1_xboole_0(Ci_0_5_A)|~m1_subset_1(Ci_0_5_C,Ci_0_5_A)|~m1_subset_1(Ci_0_5_B,Ci_0_5_A))).
+cnf(i_0_1,negated_conjecture,(~k7_partfun1(k1_numbers,esk1_0,np__2)=k18_euclid(esk1_0)|~k7_partfun1(k1_numbers,esk1_0,np__1)=k17_euclid(esk1_0))).
+cnf(i_0_3,plain,(k7_partfun1(Ci_0_3_A,k2_finseq_4(Ci_0_3_A,Ci_0_3_B,Ci_0_3_C),np__2)=Ci_0_3_C|v1_xboole_0(Ci_0_3_A)|~m1_subset_1(Ci_0_3_C,Ci_0_3_A)|~m1_subset_1(Ci_0_3_B,Ci_0_3_A))).
+cnf(i_0_4,plain,(k7_partfun1(Ci_0_4_A,k2_finseq_4(Ci_0_4_A,Ci_0_4_B,Ci_0_4_C),np__1)=Ci_0_4_B|v1_xboole_0(Ci_0_4_A)|~m1_subset_1(Ci_0_4_C,Ci_0_4_A)|~m1_subset_1(Ci_0_4_B,Ci_0_4_A))).

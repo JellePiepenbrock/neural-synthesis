@@ -1,0 +1,17 @@
+cnf(i_0_2,negated_conjecture,(v7_ordinal1(esk1_0))).
+cnf(i_0_4,plain,(k4_relat_1(Ci_0_4_A)=k6_partfun1(Ci_0_4_A))).
+cnf(i_0_8,plain,(v1_funct_1(k4_relat_1(Ci_0_8_A)))).
+cnf(i_0_10,plain,(v1_relat_1(k4_relat_1(Ci_0_10_A)))).
+cnf(i_0_18,plain,(v1_relat_1(k4_relat_1(Ci_0_18_A)))).
+cnf(i_0_17,plain,(v3_relat_2(k4_relat_1(Ci_0_17_A)))).
+cnf(i_0_16,plain,(v4_relat_2(k4_relat_1(Ci_0_16_A)))).
+cnf(i_0_15,plain,(v8_relat_2(k4_relat_1(Ci_0_15_A)))).
+cnf(i_0_6,plain,(v1_partfun1(k6_partfun1(Ci_0_6_A),Ci_0_6_A))).
+cnf(i_0_7,plain,(v1_partfun1(k4_relat_1(Ci_0_7_A),Ci_0_7_A))).
+cnf(i_0_9,plain,(v4_relat_1(k4_relat_1(Ci_0_9_A),Ci_0_9_A))).
+cnf(i_0_5,plain,(m1_subset_1(k6_partfun1(Ci_0_5_A),k1_zfmisc_1(k2_zfmisc_1(Ci_0_5_A,Ci_0_5_A))))).
+cnf(i_0_3,plain,(k6_partfun1(k2_finseq_1(Ci_0_3_A))=k1_finseq_2(Ci_0_3_A)|~v7_ordinal1(Ci_0_3_A))).
+cnf(i_0_19,plain,(v1_relat_2(Ci_0_19_A)|~v1_relat_1(Ci_0_19_A)|~v3_relat_2(Ci_0_19_A)|~v8_relat_2(Ci_0_19_A))).
+cnf(i_0_11,plain,(v1_funct_2(Ci_0_11_A,Ci_0_11_B,Ci_0_11_C)|~v1_partfun1(Ci_0_11_A,Ci_0_11_B)|~m1_subset_1(Ci_0_11_A,k1_zfmisc_1(k2_zfmisc_1(Ci_0_11_B,Ci_0_11_C))))).
+cnf(i_0_12,plain,(v3_funct_2(Ci_0_12_A,Ci_0_12_B,Ci_0_12_B)|~v1_funct_1(Ci_0_12_A)|~v1_relat_2(Ci_0_12_A)|~v1_partfun1(Ci_0_12_A,Ci_0_12_B)|~v1_funct_2(Ci_0_12_A,Ci_0_12_B,Ci_0_12_B)|~m1_subset_1(Ci_0_12_A,k1_zfmisc_1(k2_zfmisc_1(Ci_0_12_B,Ci_0_12_B))))).
+cnf(i_0_1,negated_conjecture,(~v1_funct_1(k1_finseq_2(esk1_0))|~v1_funct_2(k1_finseq_2(esk1_0),k2_finseq_1(esk1_0),k2_finseq_1(esk1_0))|~v3_funct_2(k1_finseq_2(esk1_0),k2_finseq_1(esk1_0),k2_finseq_1(esk1_0))|~m1_subset_1(k1_finseq_2(esk1_0),k1_zfmisc_1(k2_zfmisc_1(k2_finseq_1(esk1_0),k2_finseq_1(esk1_0)))))).

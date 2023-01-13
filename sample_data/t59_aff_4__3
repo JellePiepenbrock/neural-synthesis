@@ -1,0 +1,15 @@
+cnf(i_0_1,negated_conjecture,(esk2_0=k1_xboole_0)).
+cnf(i_0_5,negated_conjecture,(v1_diraf(esk1_0))).
+cnf(i_0_4,negated_conjecture,(l1_analoaf(esk1_0))).
+cnf(i_0_15,plain,(v1_xboole_0(k1_xboole_0))).
+cnf(i_0_2,negated_conjecture,(v1_aff_4(esk2_0,esk1_0))).
+cnf(i_0_3,negated_conjecture,(m1_subset_1(esk2_0,k1_zfmisc_1(u1_struct_0(esk1_0))))).
+cnf(i_0_6,negated_conjecture,(~v7_struct_0(esk1_0))).
+cnf(i_0_7,plain,(~v1_xboole_0(Ci_0_7_A)|~r2_hidden(Ci_0_7_B,Ci_0_7_A))).
+cnf(i_0_11,plain,(v7_struct_0(Ci_0_11_A)|r2_hidden(esk3_2(Ci_0_11_A,Ci_0_11_B),Ci_0_11_B)|~v1_diraf(Ci_0_11_A)|~l1_analoaf(Ci_0_11_A)|~v1_aff_4(Ci_0_11_B,Ci_0_11_A)|~m1_subset_1(Ci_0_11_B,k1_zfmisc_1(u1_struct_0(Ci_0_11_A))))).
+cnf(i_0_10,plain,(v7_struct_0(Ci_0_10_A)|r2_hidden(esk4_2(Ci_0_10_A,Ci_0_10_B),Ci_0_10_B)|~v1_diraf(Ci_0_10_A)|~l1_analoaf(Ci_0_10_A)|~v1_aff_4(Ci_0_10_B,Ci_0_10_A)|~m1_subset_1(Ci_0_10_B,k1_zfmisc_1(u1_struct_0(Ci_0_10_A))))).
+cnf(i_0_9,plain,(v7_struct_0(Ci_0_9_A)|r2_hidden(esk5_2(Ci_0_9_A,Ci_0_9_B),Ci_0_9_B)|~v1_diraf(Ci_0_9_A)|~l1_analoaf(Ci_0_9_A)|~v1_aff_4(Ci_0_9_B,Ci_0_9_A)|~m1_subset_1(Ci_0_9_B,k1_zfmisc_1(u1_struct_0(Ci_0_9_A))))).
+cnf(i_0_14,plain,(v7_struct_0(Ci_0_14_A)|m1_subset_1(esk3_2(Ci_0_14_A,Ci_0_14_B),u1_struct_0(Ci_0_14_A))|~v1_diraf(Ci_0_14_A)|~l1_analoaf(Ci_0_14_A)|~v1_aff_4(Ci_0_14_B,Ci_0_14_A)|~m1_subset_1(Ci_0_14_B,k1_zfmisc_1(u1_struct_0(Ci_0_14_A))))).
+cnf(i_0_13,plain,(v7_struct_0(Ci_0_13_A)|m1_subset_1(esk4_2(Ci_0_13_A,Ci_0_13_B),u1_struct_0(Ci_0_13_A))|~v1_diraf(Ci_0_13_A)|~l1_analoaf(Ci_0_13_A)|~v1_aff_4(Ci_0_13_B,Ci_0_13_A)|~m1_subset_1(Ci_0_13_B,k1_zfmisc_1(u1_struct_0(Ci_0_13_A))))).
+cnf(i_0_12,plain,(v7_struct_0(Ci_0_12_A)|m1_subset_1(esk5_2(Ci_0_12_A,Ci_0_12_B),u1_struct_0(Ci_0_12_A))|~v1_diraf(Ci_0_12_A)|~l1_analoaf(Ci_0_12_A)|~v1_aff_4(Ci_0_12_B,Ci_0_12_A)|~m1_subset_1(Ci_0_12_B,k1_zfmisc_1(u1_struct_0(Ci_0_12_A))))).
+cnf(i_0_8,plain,(v7_struct_0(Ci_0_8_A)|~v1_diraf(Ci_0_8_A)|~l1_analoaf(Ci_0_8_A)|~v1_aff_4(Ci_0_8_B,Ci_0_8_A)|~m1_subset_1(Ci_0_8_B,k1_zfmisc_1(u1_struct_0(Ci_0_8_A)))|~r1_aff_1(Ci_0_8_A,esk3_2(Ci_0_8_A,Ci_0_8_B),esk4_2(Ci_0_8_A,Ci_0_8_B),esk5_2(Ci_0_8_A,Ci_0_8_B)))).

@@ -1,0 +1,10 @@
+cnf(i_0_10,plain,(o_0_0_xboole_0=k1_xboole_0)).
+cnf(i_0_9,plain,(v1_xboole_0(o_0_0_xboole_0))).
+cnf(i_0_6,plain,(v1_xboole_0(esk1_0))).
+cnf(i_0_5,plain,(v1_xcmplx_0(esk1_0))).
+cnf(i_0_4,plain,(v1_xxreal_0(esk1_0))).
+cnf(i_0_3,plain,(v1_xreal_0(esk1_0))).
+cnf(i_0_1,negated_conjecture,(~r2_hidden(k1_xboole_0,k1_numbers))).
+cnf(i_0_2,plain,(Ci_0_2_A=Ci_0_2_B|~v1_xboole_0(Ci_0_2_B)|~v1_xboole_0(Ci_0_2_A))).
+cnf(i_0_8,plain,(r2_hidden(Ci_0_8_A,k1_numbers)|~v1_xreal_0(Ci_0_8_A))).
+cnf(i_0_7,plain,(v1_xreal_0(Ci_0_7_A)|~r2_hidden(Ci_0_7_A,k1_numbers))).

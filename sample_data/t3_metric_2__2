@@ -1,0 +1,15 @@
+cnf(i_0_10,negated_conjecture,(v6_metric_1(esk1_0))).
+cnf(i_0_9,negated_conjecture,(v8_metric_1(esk1_0))).
+cnf(i_0_8,negated_conjecture,(v9_metric_1(esk1_0))).
+cnf(i_0_7,negated_conjecture,(l1_metric_1(esk1_0))).
+cnf(i_0_6,negated_conjecture,(m1_subset_1(esk2_0,u1_struct_0(esk1_0)))).
+cnf(i_0_5,negated_conjecture,(m1_subset_1(esk3_0,u1_struct_0(esk1_0)))).
+cnf(i_0_4,negated_conjecture,(m1_subset_1(esk4_0,u1_struct_0(esk1_0)))).
+cnf(i_0_3,negated_conjecture,(r2_hidden(esk3_0,k1_metric_2(esk1_0,esk2_0)))).
+cnf(i_0_2,negated_conjecture,(r2_hidden(esk4_0,k1_metric_2(esk1_0,esk2_0)))).
+cnf(i_0_11,negated_conjecture,(~v2_struct_0(esk1_0))).
+cnf(i_0_1,negated_conjecture,(~r3_metric_2(esk1_0,esk3_0,esk4_0))).
+cnf(i_0_13,plain,(v2_struct_0(Ci_0_13_A)|r3_metric_2(Ci_0_13_A,Ci_0_13_B,Ci_0_13_C)|~v6_metric_1(Ci_0_13_A)|~v8_metric_1(Ci_0_13_A)|~v9_metric_1(Ci_0_13_A)|~l1_metric_1(Ci_0_13_A)|~m1_subset_1(Ci_0_13_C,u1_struct_0(Ci_0_13_A))|~m1_subset_1(Ci_0_13_B,u1_struct_0(Ci_0_13_A))|~r2_hidden(Ci_0_13_B,k1_metric_2(Ci_0_13_A,Ci_0_13_C)))).
+cnf(i_0_12,plain,(v2_struct_0(Ci_0_12_A)|r2_hidden(Ci_0_12_B,k1_metric_2(Ci_0_12_A,Ci_0_12_C))|~v6_metric_1(Ci_0_12_A)|~v8_metric_1(Ci_0_12_A)|~v9_metric_1(Ci_0_12_A)|~l1_metric_1(Ci_0_12_A)|~r3_metric_2(Ci_0_12_A,Ci_0_12_B,Ci_0_12_C)|~m1_subset_1(Ci_0_12_C,u1_struct_0(Ci_0_12_A))|~m1_subset_1(Ci_0_12_B,u1_struct_0(Ci_0_12_A)))).
+cnf(i_0_14,plain,(v2_struct_0(Ci_0_14_A)|r3_metric_2(Ci_0_14_A,Ci_0_14_B,Ci_0_14_C)|~v8_metric_1(Ci_0_14_A)|~l1_metric_1(Ci_0_14_A)|~r3_metric_2(Ci_0_14_A,Ci_0_14_C,Ci_0_14_B)|~m1_subset_1(Ci_0_14_B,u1_struct_0(Ci_0_14_A))|~m1_subset_1(Ci_0_14_C,u1_struct_0(Ci_0_14_A)))).
+cnf(i_0_15,plain,(v2_struct_0(Ci_0_15_A)|r3_metric_2(Ci_0_15_A,Ci_0_15_B,Ci_0_15_C)|~v6_metric_1(Ci_0_15_A)|~v8_metric_1(Ci_0_15_A)|~v9_metric_1(Ci_0_15_A)|~l1_metric_1(Ci_0_15_A)|~r3_metric_2(Ci_0_15_A,Ci_0_15_D,Ci_0_15_C)|~r3_metric_2(Ci_0_15_A,Ci_0_15_B,Ci_0_15_D)|~m1_subset_1(Ci_0_15_C,u1_struct_0(Ci_0_15_A))|~m1_subset_1(Ci_0_15_D,u1_struct_0(Ci_0_15_A))|~m1_subset_1(Ci_0_15_B,u1_struct_0(Ci_0_15_A)))).

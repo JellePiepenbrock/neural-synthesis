@@ -1,0 +1,13 @@
+cnf(i_0_6,plain,(k1_xboole_0=o_0_0_xboole_0)).
+cnf(i_0_2,negated_conjecture,(v4_scmyciel(esk1_0))).
+cnf(i_0_7,plain,(v1_xboole_0(esk2_0))).
+cnf(i_0_3,plain,(k1_subset_1(Ci_0_3_A)=k1_xboole_0)).
+cnf(i_0_5,plain,(m1_subset_1(k1_subset_1(Ci_0_5_A),k1_zfmisc_1(Ci_0_5_A)))).
+cnf(i_0_1,negated_conjecture,(~v9_scmyciel(k1_subset_1(k3_tarski(esk1_0)),esk1_0))).
+cnf(i_0_4,plain,(Ci_0_4_A=k1_xboole_0|~v1_xboole_0(Ci_0_4_A))).
+cnf(i_0_8,plain,(~v1_xboole_0(Ci_0_8_A)|~r2_hidden(Ci_0_8_B,Ci_0_8_A))).
+cnf(i_0_11,plain,(v9_scmyciel(Ci_0_11_A,Ci_0_11_B)|r2_hidden(esk3_2(Ci_0_11_B,Ci_0_11_A),Ci_0_11_A)|~v4_scmyciel(Ci_0_11_B)|~m1_subset_1(Ci_0_11_A,k1_zfmisc_1(k3_tarski(Ci_0_11_B))))).
+cnf(i_0_10,plain,(v9_scmyciel(Ci_0_10_A,Ci_0_10_B)|r2_hidden(esk4_2(Ci_0_10_B,Ci_0_10_A),Ci_0_10_A)|~v4_scmyciel(Ci_0_10_B)|~m1_subset_1(Ci_0_10_A,k1_zfmisc_1(k3_tarski(Ci_0_10_B))))).
+cnf(i_0_12,plain,(v9_scmyciel(Ci_0_12_A,Ci_0_12_B)|~esk4_2(Ci_0_12_B,Ci_0_12_A)=esk3_2(Ci_0_12_B,Ci_0_12_A)|~v4_scmyciel(Ci_0_12_B)|~m1_subset_1(Ci_0_12_A,k1_zfmisc_1(k3_tarski(Ci_0_12_B))))).
+cnf(i_0_13,plain,(Ci_0_13_A=Ci_0_13_B|~v4_scmyciel(Ci_0_13_C)|~v9_scmyciel(Ci_0_13_D,Ci_0_13_C)|~r2_hidden(Ci_0_13_B,Ci_0_13_D)|~r2_hidden(Ci_0_13_A,Ci_0_13_D)|~r2_hidden(k2_tarski(Ci_0_13_A,Ci_0_13_B),Ci_0_13_C)|~m1_subset_1(Ci_0_13_D,k1_zfmisc_1(k3_tarski(Ci_0_13_C))))).
+cnf(i_0_9,plain,(v9_scmyciel(Ci_0_9_A,Ci_0_9_B)|r2_hidden(k2_tarski(esk3_2(Ci_0_9_B,Ci_0_9_A),esk4_2(Ci_0_9_B,Ci_0_9_A)),Ci_0_9_B)|~v4_scmyciel(Ci_0_9_B)|~m1_subset_1(Ci_0_9_A,k1_zfmisc_1(k3_tarski(Ci_0_9_B))))).

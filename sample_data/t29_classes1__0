@@ -1,0 +1,6 @@
+cnf(i_0_6,plain,(k4_classes1(k1_xboole_0)=k1_xboole_0)).
+cnf(i_0_1,negated_conjecture,(~k4_classes1(k1_xboole_0)=k1_xboole_0)).
+cnf(i_0_5,plain,(k9_setfam_1(k4_classes1(Ci_0_5_A))=k4_classes1(k1_ordinal1(Ci_0_5_A))|~v3_ordinal1(Ci_0_5_A))).
+cnf(i_0_4,plain,(Ci_0_4_A=k1_xboole_0|k4_classes1(Ci_0_4_A)=k3_tarski(k10_xtuple_0(Ci_0_4_B))|v3_ordinal1(esk1_2(Ci_0_4_A,Ci_0_4_B))|~k9_xtuple_0(Ci_0_4_B)=Ci_0_4_A|~v3_ordinal1(Ci_0_4_A)|~v1_relat_1(Ci_0_4_B)|~v1_funct_1(Ci_0_4_B)|~v5_ordinal1(Ci_0_4_B)|~v4_ordinal1(Ci_0_4_A))).
+cnf(i_0_3,plain,(Ci_0_3_A=k1_xboole_0|k4_classes1(Ci_0_3_A)=k3_tarski(k10_xtuple_0(Ci_0_3_B))|r2_hidden(esk1_2(Ci_0_3_A,Ci_0_3_B),Ci_0_3_A)|~k9_xtuple_0(Ci_0_3_B)=Ci_0_3_A|~v3_ordinal1(Ci_0_3_A)|~v1_relat_1(Ci_0_3_B)|~v1_funct_1(Ci_0_3_B)|~v5_ordinal1(Ci_0_3_B)|~v4_ordinal1(Ci_0_3_A))).
+cnf(i_0_2,plain,(Ci_0_2_A=k1_xboole_0|k4_classes1(Ci_0_2_A)=k3_tarski(k10_xtuple_0(Ci_0_2_B))|~k9_xtuple_0(Ci_0_2_B)=Ci_0_2_A|~k1_funct_1(Ci_0_2_B,esk1_2(Ci_0_2_A,Ci_0_2_B))=k4_classes1(esk1_2(Ci_0_2_A,Ci_0_2_B))|~v3_ordinal1(Ci_0_2_A)|~v1_relat_1(Ci_0_2_B)|~v1_funct_1(Ci_0_2_B)|~v5_ordinal1(Ci_0_2_B)|~v4_ordinal1(Ci_0_2_A))).

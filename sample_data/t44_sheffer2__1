@@ -1,0 +1,8 @@
+cnf(i_0_5,negated_conjecture,(v1_sheffer2(esk1_0))).
+cnf(i_0_4,negated_conjecture,(l1_sheffer1(esk1_0))).
+cnf(i_0_3,negated_conjecture,(m1_subset_1(esk2_0,u1_struct_0(esk1_0)))).
+cnf(i_0_2,negated_conjecture,(m1_subset_1(esk3_0,u1_struct_0(esk1_0)))).
+cnf(i_0_6,negated_conjecture,(~v2_struct_0(esk1_0))).
+cnf(i_0_1,negated_conjecture,(~k5_sheffer1(esk1_0,esk2_0,k5_sheffer1(esk1_0,esk3_0,esk3_0))=k5_sheffer1(esk1_0,esk2_0,k5_sheffer1(esk1_0,esk2_0,esk3_0)))).
+cnf(i_0_7,plain,(k5_sheffer1(Ci_0_7_A,Ci_0_7_B,k5_sheffer1(Ci_0_7_A,Ci_0_7_C,Ci_0_7_B))=k5_sheffer1(Ci_0_7_A,Ci_0_7_B,k5_sheffer1(Ci_0_7_A,Ci_0_7_C,Ci_0_7_C))|v2_struct_0(Ci_0_7_A)|~v1_sheffer2(Ci_0_7_A)|~l1_sheffer1(Ci_0_7_A)|~m1_subset_1(Ci_0_7_C,u1_struct_0(Ci_0_7_A))|~m1_subset_1(Ci_0_7_B,u1_struct_0(Ci_0_7_A)))).
+cnf(i_0_8,plain,(k5_sheffer1(Ci_0_8_A,Ci_0_8_B,k5_sheffer1(Ci_0_8_A,Ci_0_8_C,Ci_0_8_D))=k5_sheffer1(Ci_0_8_A,Ci_0_8_B,k5_sheffer1(Ci_0_8_A,Ci_0_8_D,Ci_0_8_C))|v2_struct_0(Ci_0_8_A)|~v1_sheffer2(Ci_0_8_A)|~l1_sheffer1(Ci_0_8_A)|~m1_subset_1(Ci_0_8_D,u1_struct_0(Ci_0_8_A))|~m1_subset_1(Ci_0_8_C,u1_struct_0(Ci_0_8_A))|~m1_subset_1(Ci_0_8_B,u1_struct_0(Ci_0_8_A)))).

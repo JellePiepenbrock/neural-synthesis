@@ -1,0 +1,12 @@
+cnf(i_0_4,negated_conjecture,(l1_struct_0(esk1_0))).
+cnf(i_0_3,negated_conjecture,(l1_waybel_0(esk2_0,esk1_0))).
+cnf(i_0_2,negated_conjecture,(m1_yellow_6(esk3_0,esk1_0,esk2_0))).
+cnf(i_0_1,negated_conjecture,(~r1_tarski(u1_struct_0(esk3_0),u1_struct_0(esk2_0)))).
+cnf(i_0_12,plain,(l1_orders_2(Ci_0_12_A)|~l1_struct_0(Ci_0_12_B)|~l1_waybel_0(Ci_0_12_A,Ci_0_12_B))).
+cnf(i_0_11,plain,(r1_tarski(u1_struct_0(Ci_0_11_A),u1_struct_0(Ci_0_11_B))|~l1_orders_2(Ci_0_11_B)|~l1_orders_2(Ci_0_11_A)|~m1_yellow_0(Ci_0_11_A,Ci_0_11_B))).
+cnf(i_0_10,plain,(r1_tarski(u1_orders_2(Ci_0_10_A),u1_orders_2(Ci_0_10_B))|~l1_orders_2(Ci_0_10_B)|~l1_orders_2(Ci_0_10_A)|~m1_yellow_0(Ci_0_10_A,Ci_0_10_B))).
+cnf(i_0_9,plain,(m1_yellow_0(Ci_0_9_A,Ci_0_9_B)|~l1_orders_2(Ci_0_9_B)|~l1_orders_2(Ci_0_9_A)|~r1_tarski(u1_struct_0(Ci_0_9_A),u1_struct_0(Ci_0_9_B))|~r1_tarski(u1_orders_2(Ci_0_9_A),u1_orders_2(Ci_0_9_B)))).
+cnf(i_0_8,plain,(l1_waybel_0(Ci_0_8_A,Ci_0_8_B)|~l1_struct_0(Ci_0_8_B)|~l1_waybel_0(Ci_0_8_C,Ci_0_8_B)|~m1_yellow_6(Ci_0_8_A,Ci_0_8_B,Ci_0_8_C))).
+cnf(i_0_7,plain,(m1_yellow_0(Ci_0_7_A,Ci_0_7_B)|~l1_struct_0(Ci_0_7_C)|~l1_waybel_0(Ci_0_7_B,Ci_0_7_C)|~l1_waybel_0(Ci_0_7_A,Ci_0_7_C)|~m1_yellow_6(Ci_0_7_A,Ci_0_7_C,Ci_0_7_B))).
+cnf(i_0_6,plain,(k2_partfun1(u1_struct_0(Ci_0_6_A),u1_struct_0(Ci_0_6_B),u1_waybel_0(Ci_0_6_B,Ci_0_6_A),u1_struct_0(Ci_0_6_C))=u1_waybel_0(Ci_0_6_B,Ci_0_6_C)|~l1_struct_0(Ci_0_6_B)|~l1_waybel_0(Ci_0_6_A,Ci_0_6_B)|~l1_waybel_0(Ci_0_6_C,Ci_0_6_B)|~m1_yellow_6(Ci_0_6_C,Ci_0_6_B,Ci_0_6_A))).
+cnf(i_0_5,plain,(m1_yellow_6(Ci_0_5_A,Ci_0_5_B,Ci_0_5_C)|~k2_partfun1(u1_struct_0(Ci_0_5_C),u1_struct_0(Ci_0_5_B),u1_waybel_0(Ci_0_5_B,Ci_0_5_C),u1_struct_0(Ci_0_5_A))=u1_waybel_0(Ci_0_5_B,Ci_0_5_A)|~l1_struct_0(Ci_0_5_B)|~l1_waybel_0(Ci_0_5_C,Ci_0_5_B)|~l1_waybel_0(Ci_0_5_A,Ci_0_5_B)|~m1_yellow_0(Ci_0_5_A,Ci_0_5_C))).

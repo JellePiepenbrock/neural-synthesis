@@ -1,0 +1,11 @@
+cnf(i_0_5,negated_conjecture,(v10_lattices(esk2_0))).
+cnf(i_0_4,negated_conjecture,(l3_lattices(esk2_0))).
+cnf(i_0_3,negated_conjecture,(m1_subset_1(esk3_0,u1_struct_0(k3_lattice3(esk2_0))))).
+cnf(i_0_6,negated_conjecture,(~v2_struct_0(esk2_0))).
+cnf(i_0_10,plain,(k4_lattice3(Ci_0_10_A,Ci_0_10_B)=Ci_0_10_B|v2_struct_0(Ci_0_10_A)|~v10_lattices(Ci_0_10_A)|~l3_lattices(Ci_0_10_A)|~m1_subset_1(Ci_0_10_B,u1_struct_0(Ci_0_10_A)))).
+cnf(i_0_7,plain,(k5_lattice3(Ci_0_7_A,Ci_0_7_B)=Ci_0_7_B|v2_struct_0(Ci_0_7_A)|~v10_lattices(Ci_0_7_A)|~l3_lattices(Ci_0_7_A)|~m1_subset_1(Ci_0_7_B,u1_struct_0(k3_lattice3(Ci_0_7_A))))).
+cnf(i_0_11,plain,(v2_struct_0(Ci_0_11_A)|m1_subset_1(k5_lattice3(Ci_0_11_A,Ci_0_11_B),u1_struct_0(Ci_0_11_A))|~v10_lattices(Ci_0_11_A)|~l3_lattices(Ci_0_11_A)|~m1_subset_1(Ci_0_11_B,u1_struct_0(k3_lattice3(Ci_0_11_A))))).
+cnf(i_0_1,negated_conjecture,(r1_lattice3(k3_lattice3(esk2_0),esk1_0,esk3_0)|r3_lattice3(esk2_0,k5_lattice3(esk2_0,esk3_0),esk1_0))).
+cnf(i_0_2,negated_conjecture,(~r1_lattice3(k3_lattice3(esk2_0),esk1_0,esk3_0)|~r3_lattice3(esk2_0,k5_lattice3(esk2_0,esk3_0),esk1_0))).
+cnf(i_0_9,plain,(v2_struct_0(Ci_0_9_A)|r1_lattice3(k3_lattice3(Ci_0_9_A),Ci_0_9_B,k4_lattice3(Ci_0_9_A,Ci_0_9_C))|~v10_lattices(Ci_0_9_A)|~l3_lattices(Ci_0_9_A)|~r3_lattice3(Ci_0_9_A,Ci_0_9_C,Ci_0_9_B)|~m1_subset_1(Ci_0_9_C,u1_struct_0(Ci_0_9_A)))).
+cnf(i_0_8,plain,(v2_struct_0(Ci_0_8_A)|r3_lattice3(Ci_0_8_A,Ci_0_8_B,Ci_0_8_C)|~v10_lattices(Ci_0_8_A)|~l3_lattices(Ci_0_8_A)|~m1_subset_1(Ci_0_8_B,u1_struct_0(Ci_0_8_A))|~r1_lattice3(k3_lattice3(Ci_0_8_A),Ci_0_8_C,k4_lattice3(Ci_0_8_A,Ci_0_8_B)))).

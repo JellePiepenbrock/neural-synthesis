@@ -1,0 +1,10 @@
+cnf(i_0_4,negated_conjecture,(v1_relat_1(esk2_0))).
+cnf(i_0_3,negated_conjecture,(v1_funct_1(esk2_0))).
+cnf(i_0_2,negated_conjecture,(v1_finseq_1(esk2_0))).
+cnf(i_0_8,plain,(k2_tarski(Ci_0_8_A,Ci_0_8_B)=k2_tarski(Ci_0_8_B,Ci_0_8_A))).
+cnf(i_0_9,plain,(v1_xtuple_0(k4_tarski(Ci_0_9_A,Ci_0_9_B)))).
+cnf(i_0_7,plain,(k2_tarski(k2_tarski(Ci_0_7_A,Ci_0_7_B),k1_tarski(Ci_0_7_A))=k4_tarski(Ci_0_7_A,Ci_0_7_B))).
+cnf(i_0_1,negated_conjecture,(~v1_relat_1(k3_msafree2(k5_circcomb(esk1_0,esk2_0))))).
+cnf(i_0_10,plain,(v1_relat_1(k1_tarski(Ci_0_10_A))|~v1_xtuple_0(Ci_0_10_A))).
+cnf(i_0_6,plain,(k2_msafree2(k5_circcomb(Ci_0_6_A,Ci_0_6_B))=k10_xtuple_0(Ci_0_6_B)|~v1_relat_1(Ci_0_6_B)|~v1_funct_1(Ci_0_6_B)|~v1_finseq_1(Ci_0_6_B))).
+cnf(i_0_5,plain,(k1_tarski(k4_tarski(Ci_0_5_A,Ci_0_5_B))=k3_msafree2(k5_circcomb(Ci_0_5_B,Ci_0_5_A))|~v1_relat_1(Ci_0_5_A)|~v1_funct_1(Ci_0_5_A)|~v1_finseq_1(Ci_0_5_A))).

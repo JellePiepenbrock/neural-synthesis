@@ -1,0 +1,8 @@
+cnf(i_0_5,negated_conjecture,(m1_subset_1(esk1_0,k1_numbers))).
+cnf(i_0_3,negated_conjecture,(r1_xxreal_0(esk1_0,np__1))).
+cnf(i_0_2,negated_conjecture,(k10_real_1(k32_sin_cos,np__2)=k6_sin_cos9(esk1_0))).
+cnf(i_0_4,negated_conjecture,(r1_xxreal_0(k1_real_1(np__1),esk1_0))).
+cnf(i_0_6,plain,(k2_sin_cos4(k10_real_1(k32_sin_cos,np__2))=k6_numbers)).
+cnf(i_0_7,plain,(k1_seq_1(k30_sin_cos,k10_real_1(k32_sin_cos,np__2))=k6_numbers)).
+cnf(i_0_1,negated_conjecture,(~k6_numbers=esk1_0)).
+cnf(i_0_8,plain,(k2_sin_cos4(k6_sin_cos9(Ci_0_8_A))=Ci_0_8_A|~m1_subset_1(Ci_0_8_A,k1_numbers)|~r1_xxreal_0(Ci_0_8_A,np__1)|~r1_xxreal_0(k1_real_1(np__1),Ci_0_8_A))).

@@ -1,0 +1,7 @@
+cnf(i_0_4,negated_conjecture,(v7_ordinal1(esk1_0))).
+cnf(i_0_3,negated_conjecture,(v7_ordinal1(esk2_0))).
+cnf(i_0_2,negated_conjecture,(~esk1_0=k6_numbers)).
+cnf(i_0_1,negated_conjecture,(~k3_nat_d(k3_xcmplx_0(esk2_0,esk1_0),esk1_0)=esk2_0)).
+cnf(i_0_6,plain,(v1_xcmplx_0(Ci_0_6_A)|~v7_ordinal1(Ci_0_6_A))).
+cnf(i_0_5,plain,(k3_xcmplx_0(Ci_0_5_A,Ci_0_5_B)=k3_xcmplx_0(Ci_0_5_B,Ci_0_5_A)|~v1_xcmplx_0(Ci_0_5_B)|~v1_xcmplx_0(Ci_0_5_A))).
+cnf(i_0_7,plain,(Ci_0_7_A=k6_numbers|k3_nat_d(k3_xcmplx_0(Ci_0_7_A,Ci_0_7_B),Ci_0_7_A)=Ci_0_7_B|~v7_ordinal1(Ci_0_7_B)|~v7_ordinal1(Ci_0_7_A))).
