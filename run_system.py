@@ -7,7 +7,7 @@ import random
 
 import os
 
-expname = "demo3"
+expname = "demo5"
 pretrain_model = "demo_model" # last model from the run on the full dataset
 modelepoch = 0
 iteration = 0
@@ -36,4 +36,4 @@ os.system(
             f"python -u generate_jobs.py --set test --model {pretrain_model} --epoch {modelepoch} --expname {expname + '_test_' + str(iteration)}")
 os.system(f"bash {data_path}/job_scripts/main.sh")
 
-os.system(f"python -u may22_c2i_gnn_refactor_run_vampire.py --expname {expname + '_test_' + str(iteration)}")
+os.system(f"python -u run_ground_solver.py --expname {expname + '_test_' + str(iteration)}")

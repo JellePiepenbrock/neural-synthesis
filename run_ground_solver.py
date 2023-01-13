@@ -21,7 +21,7 @@ reporting_strings = []
 # Top level (0)
 no_levels = LEVELS
 
-base_prover_input_folder = f"data/inst_plus_orig/{exp}"
+base_prover_input_folder = f"data/inst_plus_orig_files/{exp}"
 
 parallel_pool = mp.Pool(40)
 
@@ -39,7 +39,7 @@ for intlev, lev in enumerate(levelstrings[:no_levels]):
         counter += 1
         print(counter)
         # os.system(f"cat {filen} | grep -v C | /{prefix}/piepejel/projects/iprover_instantiation/vampire_z3_rel_static_master_4909 -t 30 -acc on --proof tptp --output_axiom_names on -stat full > /{prefix}/piepejel/projects/iprover_instantiation/vampire_proofs/{exp + lev}/{filen.split('/')[-1]}")
-        comm_strings.append(f"cat {filen} | grep -v C | ./vampire_z3_rel_static_master_4909 -t 30 -acc on --proof tptp --output_axiom_names on -stat full > data/vampire_proofs/{exp + lev}/{filen.split('/')[-1]}")
+        comm_strings.append(f"cat {filen} | grep -v C | ./utils/vampire_z3_rel_static_master_4909 -t 30 -acc on --proof tptp --output_axiom_names on -stat full > data/vampire_proofs/{exp + lev}/{filen.split('/')[-1]}")
 
     parallel_pool.map(os.system, comm_strings)
 

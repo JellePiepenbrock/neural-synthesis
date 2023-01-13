@@ -124,7 +124,7 @@ if top_level == 1:
         val_theorems = val_split.readlines()
         val_theorems = [k.strip() for k in val_theorems]
 
-    test_list_file = f"lists/00all_probs_test"
+    test_list_file = f"lists/00all_probs_test_sample"
 
 
     with open(test_list_file, "r") as test_split:
@@ -173,7 +173,7 @@ if top_level == 1:
     predict_theorems_sample = random.sample(predict_theorems, k=sample_per_exploration_step)
     print("Num theorems we will use")
     print(len(predict_theorems_sample))
-    assert 2 > 3
+    #assert 2 > 3
     split_list = list(split(predict_theorems_sample, datparafac*inner_para_factor))
 
     print(f"The start of it looks like this:")
