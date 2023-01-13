@@ -163,8 +163,17 @@ if top_level == 1:
     random.seed(args.seed)  # seed I used for the grid search;
     if len(predict_theorems) < sample_per_exploration_step:
         sample_per_exploration_step = len(predict_theorems)
-    predict_theorems_sample = random.sample(predict_theorems, k=sample_per_exploration_step)
 
+    print("Number of theorems to sample from: ")
+    print(len(predict_theorems))
+    print("Num samples")
+    print(sample_per_exploration_step)
+
+
+    predict_theorems_sample = random.sample(predict_theorems, k=sample_per_exploration_step)
+    print("Num theorems we will use")
+    print(len(predict_theorems_sample))
+    assert 2 > 3
     split_list = list(split(predict_theorems_sample, datparafac*inner_para_factor))
 
     print(f"The start of it looks like this:")
