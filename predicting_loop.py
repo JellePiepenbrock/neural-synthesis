@@ -252,7 +252,7 @@ elif top_level == 0:
         val_theorems = [k.strip() for k in val_theorems]
 
 
-    test_list_file = f"lists/00all_probs_test"
+    test_list_file = f"lists/00all_probs_test_sample"
 
     with open(test_list_file, "r") as test_split:
 

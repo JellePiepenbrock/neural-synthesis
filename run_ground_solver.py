@@ -21,7 +21,7 @@ reporting_strings = []
 # Top level (0)
 no_levels = LEVELS
 
-base_prover_input_folder = f"data/inst_plus_orig_files/{exp}"
+base_prover_input_folder = f"data/inst_plus_orig_files"
 
 parallel_pool = mp.Pool(40)
 
