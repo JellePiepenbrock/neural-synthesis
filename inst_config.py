@@ -1,6 +1,6 @@
 CONDASH_LOCATION = "/home/jelle/anaconda3/etc/profile.d/conda.sh"
 ENV_LOCATION = "/raid/scratch/piepejel/projects/mlmthu"
-LEVELS = 2
+LEVELS = 1
 PREMSEL = False
 USE_M2K = False
 KEEP_GENERAL = False
