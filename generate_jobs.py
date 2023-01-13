@@ -21,8 +21,9 @@ experiment_iteration = int(expname.split("_")[-1])
 
 sets = [set]
 
-
-if LEVELS == 2:
+if LEVELS == 1:
+    num_samples = [[25]]
+elif LEVELS == 2:
     num_samples = [[25, 5]]
 elif LEVELS == 3:
     num_samples = [[25, 5, 5]]
