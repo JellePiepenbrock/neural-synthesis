@@ -115,7 +115,7 @@ with open(f"data/job_scripts/main.sh", "w") as f:
     f.write("ulimit -s unlimited")
     for k in range(num_gpus*inner_para_factor):
         f.write("\n")
-        f.write(f"nohup python -u data/job_scripts/gpu_{k}.py > data/jobs_scripts/gpu{k}_log &")
+        f.write(f"nohup python -u data/job_scripts/gpu_{k}.py > data/job_scripts/gpu{k}_log &")
 
         f.write("\n")
 
