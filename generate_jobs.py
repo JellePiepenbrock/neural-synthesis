@@ -1,6 +1,6 @@
 from itertools import product
 import argparse
-from inst_config import CONDASH_LOCATION, LEVELS, NO_GPUS, TEMP, INNER_PARA
+from inst_config import CONDASH_LOCATION, ENV_LOCATION, LEVELS, NO_GPUS, TEMP, INNER_PARA
 #
 server = "dgxscratch"
 
@@ -107,10 +107,13 @@ with open(f"data/job_scripts/main.sh", "w") as f:
     f.write("#!/usr/bin/env bash")
     f.write("\n")
     f.write(f"source {CONDASH_LOCATION}")
+    print(f"source {CONDASH_LOCATION}")
     f.write("\n")
-    f.write("conda activate ./cenv")
+    f.write(f"conda activate ./cenv")
+    #print(f"conda activate {ENV_LOCATION}/cenv")
     f.write("\n")
     f.write("export LD_LIBRARY_PATH=`pwd`")
+
     f.write("\n")
     f.write("ulimit -s unlimited")
     for k in range(num_gpus*inner_para_factor):
