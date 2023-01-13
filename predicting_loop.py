@@ -455,7 +455,7 @@ for its in [rnn_its]:
 
                         # #
                         losses = []
-                        import matplotlib.pyplot as plt
+                        #import matplotlib.pyplot as plt
                         # # # #
                         import random
                         #default batch size = 4

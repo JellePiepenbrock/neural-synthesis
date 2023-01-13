@@ -8,7 +8,7 @@ import random
 import os
 
 expname = "demo"
-pretrain_model = "models/demo_model" # last model from the run on the full dataset
+pretrain_model = "demo_model" # last model from the run on the full dataset
 modelepoch = 0
 iteration = 0
 
