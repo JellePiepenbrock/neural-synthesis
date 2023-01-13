@@ -85,7 +85,7 @@ for counter, (p, exp) in enumerate(zip(params, expnames)):
 
     for gpu_chosen in range(p[7]):
         for inner_index in range(inner_para_factor):
-            comstring = f"\"python -u controller.py --expname {exp} --seed {seed} --set {p[0]} --num_samples {' '.join([str(c) for c in p[1]])} --temperature {p[2]} --model {p[3]} --epoch {p[4]} --keep_clauses {p[5]} --rnn_its {p[6]} --data_parallel_factor {p[7]} --beam 0 --gpu {gpu_chosen} --inner_index {inner_index} --inner_para_factor {inner_para_factor}\""
+            comstring = f"\"python -u loop_controller.py --expname {exp} --seed {seed} --set {p[0]} --num_samples {' '.join([str(c) for c in p[1]])} --temperature {p[2]} --model {p[3]} --epoch {p[4]} --keep_clauses {p[5]} --rnn_its {p[6]} --data_parallel_factor {p[7]} --beam 0 --gpu {gpu_chosen} --inner_index {inner_index} --inner_para_factor {inner_para_factor}\""
             command_list.append(comstring)
             # print(gpus)
             # print(counter % num_gpus)
