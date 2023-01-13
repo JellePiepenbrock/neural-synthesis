@@ -484,10 +484,10 @@ for its in [rnn_its]:
                         # cnfwithout_folder = f"data/generated_cnfs_without_orig/" + gen_name
 
                         predictions_label_format_folder = f"data/predictions_in_label_format/" + gen_name
-                        eground_folder = f"data/{exp_stem}/inst_files/" + gen_name
-                        eground_with_orig_folder = f"data/{exp_stem}/inst_plus_orig_files/" + gen_name
+                        eground_folder = f"data/inst_files/" + gen_name
+                        eground_with_orig_folder = f"data/inst_plus_orig_files/" + gen_name
                         # iprover_output_folder = f"data/iprover_runs/" + gen_name
-                        auxiliary_clause_info_folder = f"data/{exp_stem}/clause_info/" + gen_name
+                        auxiliary_clause_info_folder = f"data/clause_info/" + gen_name
                         # folder_list.append((cnfwith_folder, iprover_output_folder))
 
                         # if not os.path.exists(cnfwith_folder):
