@@ -480,13 +480,13 @@ for its in [rnn_its]:
 
                         # this is where we generate the new folders
                         gen_name = f"{exp_stem}"
-                        # cnfwith_folder = f"/{prefix}/piepejel/projects/iprover_instantiation/generated_cnfs_with_orig/" + gen_name
-                        # cnfwithout_folder = f"/{prefix}/piepejel/projects/iprover_instantiation/generated_cnfs_without_orig/" + gen_name
+                        # cnfwith_folder = f"data/generated_cnfs_with_orig/" + gen_name
+                        # cnfwithout_folder = f"data/generated_cnfs_without_orig/" + gen_name
 
-                        predictions_label_format_folder = f"/{prefix}/piepejel/projects/iprover_instantiation/predictions_in_label_format/" + gen_name
+                        predictions_label_format_folder = f"data/predictions_in_label_format/" + gen_name
                         eground_folder = f"data/{exp_stem}/inst_files/" + gen_name
                         eground_with_orig_folder = f"data/{exp_stem}/inst_plus_orig_files/" + gen_name
-                        # iprover_output_folder = f"/{prefix}/piepejel/projects/iprover_instantiation/iprover_runs/" + gen_name
+                        # iprover_output_folder = f"data/iprover_runs/" + gen_name
                         auxiliary_clause_info_folder = f"data/{exp_stem}/clause_info/" + gen_name
                         # folder_list.append((cnfwith_folder, iprover_output_folder))
 
@@ -662,7 +662,7 @@ for its in [rnn_its]:
                             # assert 2 > 3
                             # print(orig_files)
                             #
-                            utils_folder = f"/{prefix}/piepejel/projects/iprover_instantiation/utils2/"
+                            utils_folder = f"utils/"
                             arity_information = []
                             for file in batch_filenames:
                                 arity_information.append(extract_arities(file, utils_folder))

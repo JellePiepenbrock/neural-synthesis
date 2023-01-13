@@ -24,7 +24,7 @@ if not os.path.exists(data_path):
 
 needed_folders = ["job_scripts", "inst_plus_orig_files", "inst_files", "vampire_proofs", "no_premsel_copies",
                   "clause_info", "proof_statistics", "premsel_transition_in", "premsel_transition_out",
-                  "no_premsel_copies", "premsel_comm_logs", "premsel_transition_in_lists", ""]
+                  "no_premsel_copies", "premsel_comm_logs", "premsel_transition_in_lists", "predictions_in_label_format"]
 
 for nf in needed_folders:
     tentative_path = data_path + "/" + nf
