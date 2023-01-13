@@ -187,9 +187,9 @@ if top_level == 1:
     print(f"We actually used these: ")
     print(predict_theorems[:10])
 
-    base_data_folder_cnf = f"data/"
+    base_data_folder_cnf = f"./"
 
-    cnf_file_folders = ["cnf2_var_renamed_140621"]
+    cnf_file_folders = ["sample_data"]
 
     predict_data_cnf_files = []
     predict_data = []
