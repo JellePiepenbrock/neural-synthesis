@@ -115,7 +115,7 @@ with open(f"data/job_scripts/main.sh", "w") as f:
     f.write("\n")
     f.write(f"source {CONDASH_LOCATION}")
     f.write("\n")
-    f.write("conda activate inst_env")
+    f.write("conda activate ./cenv")
     f.write("\n")
     f.write("export LD_LIBRARY_PATH=`pwd`")
     f.write("\n")
