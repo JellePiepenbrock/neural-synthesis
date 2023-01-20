@@ -302,7 +302,7 @@ for level in range(no_levels):
 
             with open(f"data/premsel_comm_logs/{exp}_{level}", "a") as f:
                 # f.write(f"python may22_c2i_premise_selector_cl.py --mode test_premise --model {previous_exp_iter} --expname {exp + levelstrings[level-1]} --input_filelist {list_file_loc} --input_folder 0 --epoch 19 --first_iter 0 ")
-                f.write(f"python -u may22_c2i_premise_selector_cl.py --mode test_premise --gpu {args.gpu} --model {previous_exp_iter} --expname {exp + levelstrings[level-1]} --input_filelist {list_file_loc} --input_folder 0 --epoch {PREMSEL_TRAIN_EPOCHS -1} --first_iter 0 &> /{prefix}/piepejel/projects/iprover_instantiation/premsel_comm_logs/scriptoutput_{exp}_{level}")
+                f.write(f"python -u may22_c2i_premise_selector_cl.py --mode test_premise --gpu {args.gpu} --model {previous_exp_iter} --expname {exp + levelstrings[level-1]} --input_filelist {list_file_loc} --input_folder 0 --epoch {PREMSEL_TRAIN_EPOCHS -1} --first_iter 0 &> data/premsel_comm_logs/scriptoutput_{exp}_{level}")
                 f.write("\n")
 
 

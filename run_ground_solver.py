@@ -38,7 +38,7 @@ for intlev, lev in enumerate(levelstrings[:no_levels]):
     for filen in files:
         counter += 1
         print(counter)
-        # os.system(f"cat {filen} | grep -v C | /{prefix}/piepejel/projects/iprover_instantiation/vampire_z3_rel_static_master_4909 -t 30 -acc on --proof tptp --output_axiom_names on -stat full > /{prefix}/piepejel/projects/iprover_instantiation/vampire_proofs/{exp + lev}/{filen.split('/')[-1]}")
+
         comm_strings.append(f"cat {filen} | grep -v C | ./utils/vampire_z3_rel_static_master_4909 -t 30 -acc on --proof tptp --output_axiom_names on -stat full > data/vampire_proofs/{exp + lev}/{filen.split('/')[-1]}")
 
     parallel_pool.map(os.system, comm_strings)
