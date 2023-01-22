@@ -623,7 +623,7 @@ for its in [rnn_its]:
                                     # with premsel, I may generate clauses, remove them and then regenerate a clause
                                     # with the same ID, which makes the proof extraction assumptions broken.
                                     ids_taken = []
-                                    premsel_archive_file = file.replace("eground_plus_orig_files", "no_premsel_copies")
+                                    premsel_archive_file = file.replace("inst_plus_orig_files", "no_premsel_copies")
                                     with open(premsel_archive_file, "r") as premsel_archive:
                                         clauses_without_premsel = premsel_archive.readlines()
                                         archive_clause_ids = []
