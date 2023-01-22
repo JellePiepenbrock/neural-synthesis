@@ -5,10 +5,9 @@
 ### What you need
 - It would be best if you install the Conda (https://docs.conda.io/en/latest/) package management system .
 - A GPU with NVIDIA drivers that at least support CUDA 10.1
-- Linux (tested on Ubuntu 20.04 and NVIDIA DGX Server Version 5.2.0)
+- Linux (tested on both Ubuntu 20.04 and NVIDIA DGX Server Version 5.2.0)
 - GLIBC_2.29 version or higher (check with "ldd --version"); if you have a recent OS (2019) it should be there.
-
-The code was tested on several different machines. 
+ 
 ```
 cd mlmthu/
 conda create --prefix ./cenv python=3.8.5 tqdm
