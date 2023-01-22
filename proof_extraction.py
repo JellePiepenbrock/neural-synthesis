@@ -372,9 +372,9 @@ for proof in proof_relevant_instance_dict:
     for node in proof_graph:
         all_proof_clauses.append(node)
         all_proof_clauses += proof_graph[node]
-    # print(all_proof_clauses)
 
-     if premise_selector:
+
+    if premise_selector:
         for cn in all_cnfs:
             with open(cn, "r") as cnfile:
                 cnlines = cnfile.readlines()
