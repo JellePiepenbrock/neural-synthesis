@@ -972,9 +972,7 @@ class PIEGNN(nn.Module):
                     torch.relu(xn + xs + self.bst_list[layer]), segments.to(self.device), self.device
                 )
 
-                # Like in Mirek's implementation, we actually add the zeros and then apply the MLP, is that
-                # Useful however? There is no bias in this layer, so the answer will always be 0 too - perhaps
-                # We could optimize a bit here
+
 
                 zijd = add_zeros(
                     zijd, nonzero_indices.to(self.device), (nodes.shape[0], zijd.shape[1]), self.device
@@ -1201,7 +1199,7 @@ class PIEGNN(nn.Module):
         #
 
         optimism_factor = optimism # https://www.mdpi.com/2078-2489/12/9/355/htm section 3.4
-         # TODO this is wrong!!!! should be reset everywhere
+
 
         for iter in range(iterations):
             if iter == 0:
@@ -1313,13 +1311,7 @@ class PIEGNN(nn.Module):
                         new_preds.append(new_k)
                     predictions = new_preds
 
-                ## TODO there's a special case here if the amount of function symbols < beam_width; how to handle without
-                ## breaking the assumption for the hidden state caching that there are always beam_width * num previous clauses
-                ## before? That's not true if we suddenly only have 9 instead of 10. Perhaps do some copying to assure the
-                ## assumption is true by paying some extra computation?
 
-                ## TODO: There's another strange thing here where I get an error that beam_width > f, but only after already running
-                ## the same sample, successfully before, so there's a bug. (07-01-2022)
 
                 topk = []
                 for e, f in enumerate(predictions):
@@ -1384,7 +1376,7 @@ class PIEGNN(nn.Module):
                 distributions = [(e // beam_width, f) for (e, f) in enumerate(predictions)]
                 new_beamlist = []
 
-                # TODO I need to slightly rethink this, because of the termination symbol.
+
                 for cn, clause_beams in enumerate(beamlist):
                     new_clause_beams = []
 
@@ -1411,7 +1403,7 @@ class PIEGNN(nn.Module):
                             new_possible_ray_probability = clause_beams[ray][0]
                             new_possible_rays_probs.append(new_possible_ray_probability)
                             # print(new_possible_ray_probability)
-                            new_possible_rays_hidden_indices.append(ray) # This is wrong (points to a newer list in the hidden_cache), but will have no effects, as we will never continue this beam.
+                            new_possible_rays_hidden_indices.append(ray) # This is strange (points to a newer list in the hidden_cache), but will have no effects, as we will never continue this beam.
 
                         else: # some function symbol was chosen in the last step
                             prefix_probability = clause_beams[ray][0]
@@ -2016,46 +2008,7 @@ class PIEGNN(nn.Module):
                         choice = all_samples[absolute_index]
                         proba = all_probs[absolute_index]
 
-                        # print("Prefix probability: ", prefix_probability)
-                        # print("Prefix = ", prefix_sequence[path][1])
-                        # print(possible_continuations[0], cn)
-                        # print("Possible Continuation")
-                        # print(possible_continuations)
-                        # before_dist = time.time()
-                        # print(possible_continuations[1].device)
 
-                        # before_cat = time.time()
-                        # distribut = torch.distributions.Categorical(possible_continuations[1])
-                        # after_cat = time.time()
-                        # time_cat += (after_cat - before_cat)
-
-                        # print("Dist")
-                        # print(distribut.device)
-                        # print("Distsample")
-                        # print(distribut.sample().device)
-
-                        # before_samp = time.time()
-
-                        # before_samp_inner = time.time()
-                        # choice = distribut.sample()
-                        # after_samp_inner = time.time()
-                        # time_inner_samp += (after_samp_inner - before_samp_inner)
-                        # before_item = time.time()
-                        # choice = choice.item()
-                        # prob = possible_continuations[1][choice].item()
-                        # after_item = time.time()
-                        # time_item += (after_item - before_item)
-                        # after_samp = time.time()
-                        # time_sam += (after_samp - before_samp)
-                        #
-                        # after_dist = time.time()
-                        # time_dist += (after_dist - before_dist)
-                        # assert possible_continuations[0] == cn  # check if we are talking about the same clause still
-                        # proba = prob * prefix_probability  # multiply by the according prefix
-
-                        # beam = copy.deepcopy(beamlist[cn][path])
-
-                        # before_dc = time.time()
                         old_prefix_beam = copy.deepcopy(beamlist[cn][path][1])
                         # after_dc = time.time()
                         # time_deepcopy += (after_dc - before_dc)
@@ -2066,40 +2019,7 @@ class PIEGNN(nn.Module):
                         new_beams_clause.append([proba, old_prefix_beam])
                     new_beamlist.append(new_beams_clause)
 
-                    # for path in range(beam_width):
-                    #     absolute_index = cn * beam_width + path
-                    #     print(absolute_index)
-                    #     possible_continuations = distributions[absolute_index]
-                    #     prefix_probability = prefix_sequence[path][0]
-                    #     print("Prefix probability: ", prefix_probability)
-                    #     print(possible_continuations[0], cn)
-                    #
-                    #     assert possible_continuations[0] == cn # check if we are talking about the same clause still
-                    #     postfixes.append(possible_continuations[1] * prefix_probability) # multiply by the according prefix
 
-                    # possible_options = torch.cat(postfixes) # these are the probabilities of the second token, given the first
-                    #
-                    # # need to multiply this with the probability of the prefix
-                    # # print(possible_options)
-                    # print(possible_options.shape)
-                    # top_k_options = torch.topk(possible_options, k = beam_width)
-                    # topk_values, topk_indices = top_k_options
-                    # print("REMAPPED ACTIONS")
-                    # print(topk_indices)
-                    # print([(original_signature_map[k], k.item() // sig_s) for k in topk_indices]) #pairs of new_symbol, oldbeamindex
-                    #
-                    # new_postfixes = [(original_signature_map[k], k.item() // sig_s) for k in topk_indices]
-                    # new_beams_clause = []
-                    # for postfix, proba in zip(new_postfixes, topk_values):
-                    #     old_prefix_beam = copy.deepcopy(beamlist[cn][postfix[1]][1])
-                    #     prev_hidden_index.append(postfix[1])
-                    #     old_prefix_beam.append(postfix[0])
-                    #     print(old_prefix_beam)
-                    #     new_beams_clause.append([proba.item(), old_prefix_beam])
-                    # print(new_beams_clause)
-                    # print("NUMBEROFVARIABLES:", num_var_list[cn])
-                    # new_beamlist.append(new_beams_clause)
-                    #
                 beamlist = new_beamlist
                 print(f"Doing the administration takes {time.time() - ctime} seconds")
                 # print(f"Of that, {time_deepcopy} seconds was spent in deepcopy.")
