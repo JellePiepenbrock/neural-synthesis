@@ -205,7 +205,7 @@ def scan_folder_for_proofs(case):
                         proof_multilevel_dict[theorem] += [(cnf_file, label_file)]
 
     else:
-        print("malloop")
+
         proof_multilevel_dict = {}
         with open(f"lists/00all_probs_train_without_devel", "r") as train_split:
 

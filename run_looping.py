@@ -46,7 +46,7 @@ if mode == "clean":
 for iteration in range(start_iter, 1000):
 
     if iteration == 0:
-        # use may22_c2i_gnn_refactor_dataparallel_pred
+
 
         os.system(f"python -u generate_jobs.py --set train --model {pretrain_model} --epoch {modelepoch} --expname {expname+ '_' +str(iteration)}")
         os.system(f"bash data/job_scripts/main.sh")
