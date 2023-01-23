@@ -25,7 +25,7 @@ To run the system on 103 test problems (with 2 levels of instantiation), run the
 
     python run_system.py
 
-Usually (depending on the sampling), this will solve around 18% of the sample files.
+Usually (depending on the sampling), this will solve around 18% of the sample files. A list of the proved problems should be printed.
 
 If that doesn't work, perhaps you don't have Perl installed on your system. If so, try:
 
