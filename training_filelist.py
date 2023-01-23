@@ -62,7 +62,7 @@ model = PIEGNN(
 
 print(f"models/model_{model_to_load}_epoch_{saved_epoch}.pt")
 model.load_state_dict(torch.load(
-    f"models/model_parameters/model_{model_to_load}_epoch_{saved_epoch}.pt"))
+    f"models/model_{model_to_load}_epoch_{saved_epoch}.pt"))
 
 loss = nn.CrossEntropyLoss(reduction='none')
 optimizer = torch.optim.Adam(model.parameters(), lr=0.00001) # works with lr=0.00001
