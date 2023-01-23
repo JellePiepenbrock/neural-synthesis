@@ -31,7 +31,7 @@ If that doesn't work, perhaps you don't have Perl installed on your system. If s
 
     conda install -c conda-forge perl
 
-### Other information
+### Data & Other information
 
 The sample data folder contains CNF files (a random 1000 samples from the whole dataset). 
 
