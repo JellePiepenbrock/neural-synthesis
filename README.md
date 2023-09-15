@@ -1,4 +1,4 @@
-# Invariant Neural Architecture for Learning Term Synthesis in Theorem Proving
+# Invariant Neural Architecture for Learning Term Synthesis in  Instantiation Proving
 ## Installation Instructions
 
 ### What you need
