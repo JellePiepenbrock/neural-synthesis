@@ -1,4 +1,4 @@
-# Machine Learning Meets The Herbrand Universe
+# Invariant Neural Architecture for Learning Term Synthesis in Theorem Proving
 ## Installation Instructions
 
 ### What you need
@@ -34,7 +34,7 @@ If that doesn't work, perhaps you don't have Perl installed on your system. If s
 
 The sample data folder contains CNF files (a random 1000 samples from the whole dataset). 
 
-After reviewing, this will be hosted on Github, with the whole dataset; during reviewing we can only upload 30MB. Code for the looping experiments is also here.
+After reviewing, this will be hosted on Github, with the whole dataset; during reviewing we supply a sample of the dataset. Code for the looping experiments is also here.
 
 ## Ampere GPUs
 
